@@ -50,40 +50,40 @@ function getHeader() {
         </div> 
         <div class="menu__links">
           <ul id="nav-list">
-            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Início</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Home</a></li>
-            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/cinemanegrobh/semanadecinemanegro/programacao">Programação</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/cinemanegrobh/semanadecinemanegro/programacao">Program</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/index.php">Início</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/index.php">Home</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/programacao.php">Programação</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/programacao.php">Program</a></li>
            <div class="dropdown">
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/sessao_de_abertura">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/sessao_de_abertura">Maria José Novais Oliveira - Our Actress</a></li>
-                  <li lang="pt"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/mostra_fespaco">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li lang="en"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/mostra_fespaco">African Films Revisited: The Origins of FESPACO</a></li>
-                  <li lang="pt"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/mostra_surreal16">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li lang="en"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/mostra_surreal16">Surreal16 Collective, a new look at nigerian cinema</a></li>
-                  <li lang="pt"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/mostra_homenagem">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
-                  <li lang="en"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/mostra_homenagem">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
-                  <li lang="pt"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/cine_escrituras_pretas">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="http://localhost/cinemanegrobh/semanadecinemanegro/cine_escrituras_pretas">Black Film-Writings</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/sessao_de_abertura.php">Maria José Novais Oliveira - Our Actress</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostra_fespaco.php">African Films Revisited: The Origins of FESPACO</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostra_surreal16.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostra_surreal16.php">Surreal16 Collective, a new look at nigerian cinema</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostra_homenagem.php">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostra_homenagem.php">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/cine_escrituras_pretas.php">Black Film-Writings</a></li>
                </div>
            </div>
            <div class="dropdown">
                <li lang="pt"><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Activities <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="/oficinas">Oficinas</a></li>
-                  <li lang="en"><a href="/oficinas">Workshops</a></li>
-                  <li lang="pt"><a href="/debates">Conversas e Debates</a></li>                  
-                  <li lang="en"><a href="/debates">Talks and Q&A's</a></li>                  
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Oficinas</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Workshops</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/debates.php">Conversas e Debates</a></li>                  
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/debates.php">Talks and Q&A's</a></li>                  
                </div>
            </div>
-            <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a></li>
-            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li>
+            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Créditos</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Credits</a></li>
             <div class="search-container">
            <form>
             <input  lang="pt" type="text" name="search" class="searchBarPT" placeholder="Pesquisa">
