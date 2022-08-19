@@ -1,5 +1,5 @@
-var page = document.querySelector('.page');
-var searchButton = document.querySelector('#searchButton');
+var page = document.querySelector(".page");
+var searchButton = document.querySelector("#searchButton");
 
 var resultTotal = [];
 
@@ -12,7 +12,7 @@ function fetchJson(url) {
 render();
 
 async function render() {
-  var data = await fetchJson('/js/data.json');
+  var data = await fetchJson("semanadecinemanegro_22/js/data.json");
   resultTotal = [
     ...data.donaZeze,
     ...data.fespaco,
@@ -26,19 +26,19 @@ async function render() {
     ...data.oficinas,
   ];
 
-  searchButton.addEventListener('click', (e) => {
+  searchButton.addEventListener("click", (e) => {
     e.preventDefault();
     const searchBarPT = document
-      .querySelector('.searchBarPT')
+      .querySelector(".searchBarPT")
       .value.toUpperCase();
     const searchBarEN = document
-      .querySelector('.searchBarEN')
+      .querySelector(".searchBarEN")
       .value.toUpperCase();
     const searchStringPT = searchBarPT;
     const searchStringEN = searchBarEN;
-    const lang = localStorage.getItem('lang');
+    const lang = localStorage.getItem("lang");
     const filteredResult = resultTotal.filter((result) => {
-      if (lang === 'pt') {
+      if (lang === "pt") {
         return result.tituloPt.toUpperCase().includes(searchStringPT);
       } else {
         if (!!result.tituloEng) {
@@ -92,7 +92,7 @@ const displayResults = (results) => {
         </div></a>
         </li>`;
     })
-    .join('');
+    .join("");
   page.innerHTML = `${header} <section>
   <div class="containerResults"><ul>${htmlString}</ul></div></section>`;
 };

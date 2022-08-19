@@ -1,5 +1,5 @@
-var container = document.querySelector('.container');
-var src = './img/oficinas/';
+var container = document.querySelector(".container");
+var src = "./img/oficinas/";
 var boxContent = [];
 
 function fetchJson(url) {
@@ -9,13 +9,13 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson('/js/data.json');
+  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
   boxContent = data.oficinas;
 
   function createData() {
     for (i = 0; i < boxContent.length; i++) {
-      var postBox = document.createElement('div');
-      postBox.className = 'postBoxOficina postBox';
+      var postBox = document.createElement("div");
+      postBox.className = "postBoxOficina postBox";
       postBox.innerHTML = `
     <div class="postInfo">
       <h1 lang="pt">${boxContent[i].tituloPt}</h1>

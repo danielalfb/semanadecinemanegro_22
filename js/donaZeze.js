@@ -1,5 +1,5 @@
-var container = document.querySelector('.container');
-var src = './img/filmes/';
+var container = document.querySelector(".container");
+var src = "./img/filmes/";
 var boxContent = [];
 
 function fetchJson(url) {
@@ -9,13 +9,13 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson('/js/data.json');
+  var data = await fetchJson("semanadecinemanegro_22/js/data.json");
   boxContent = data.donaZeze;
 
   function createData() {
     for (i = 0; i < boxContent.length; i++) {
-      var postBox = document.createElement('div');
-      postBox.className = 'postBox';
+      var postBox = document.createElement("div");
+      postBox.className = "postBox";
       postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${boxContent[i].img}')"></div>
       <div class="postInfo"><h1 lang="pt">${boxContent[i].tituloPt}</h1>
