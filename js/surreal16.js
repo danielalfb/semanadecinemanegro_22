@@ -9,7 +9,7 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson("semanadecinemanegro_22/js/data.json");
+  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
   boxContent = data.surreal16;
 
   function createData() {

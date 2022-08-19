@@ -12,7 +12,7 @@ function fetchJson(url) {
 render();
 
 async function render() {
-  var data = await fetchJson("semanadecinemanegro_22/js/data.json");
+  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
   resultTotal = [
     ...data.donaZeze,
     ...data.fespaco,

@@ -12,7 +12,7 @@ function fetchJson(url) {
 }
 
 async function loadData() {
-  var data = await fetchJson("semanadecinemanegro_22/js/data.json");
+  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
   sessaoEspecial = data.sessaoEspecial;
   sessaoVivencias = data.sessaoVivencias;
   sessaoAfetos = data.sessaoAfetos;
