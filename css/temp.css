@@ -12,13 +12,6 @@
   --cor-rosinha: #ffb9b6;
   --cor-marrom: #522319;
   --cor-azul: #0566c6;
-  --cor-purple: #470e6b;
-  --cor-mustard: #e1ca48;
-  --cor-lilac: #75456c;
-  --cor-yellow: #fae30c;
-  --cor-lightpink: #ffeeda;
-  --cor-pink: #b03b96;
-  --cor-blue: #2771ae;
   --cor-cinza-menu: #5d5d5d;
   --cor-cinza-claro: #f3f3f3;
   --cor-cinza-padrao: #e6e6e6;
@@ -107,14 +100,12 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  background: url("../img/error-future.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-color: var(--cor-cinza-claro);
 }
 .mainInfo {
   width: 700px;
   max-width: 100%;
+  flex-grow: 2;
   padding: var(--lmargin-padrao);
   color: #000;
 }
@@ -128,6 +119,12 @@ p {
 }
 .mainInfo > .creditos {
   padding-bottom: 0;
+}
+
+.mainInfo a {
+  color: var(--cor-salmao);
+  text-decoration: none;
+  font-weight: 500;
 }
 .title > svg {
   width: 20px !important;
@@ -150,7 +147,7 @@ a.btn {
   align-items: center;
   justify-content: center;
   flex: 1;
-  width: 200px;
+  /* width: 200px; */
   padding: 5px 10px;
   color: #fff;
   font-weight: 300;
@@ -178,7 +175,7 @@ a.btn:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3em 8em;
+  margin: 3em;
 }
 
 .pdfCover {
@@ -210,21 +207,48 @@ a.btn:hover {
 .container {
   width: 100%;
   display: flex;
-  justify-content: center;
-  padding: var(--padding-padrao);
-  margin-top: 40px;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.illustrations {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.illustration-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+}
+
+.illustration-item1 {
+  width: 416px;
+  height: 300px;
+}
+
+.illustration-item2 {
+  width: 416px;
+  height: 251px;
+}
+
+.illustration-item3 {
+  width: 416px;
+  height: 373px;
 }
 
 .teamContainer {
   display: flex;
   align-items: baseline;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 2em;
+  padding: var(--lmargin-padrao);
+  /* gap: 5em; */
 }
 .teamContainer > .teamSing {
   width: 25%;
-  padding: 0 2em 3em 2em;
 }
 ul.teamSing {
   list-style: none;
