@@ -29,7 +29,8 @@ function getHeader() {
   <!-- HEADER -->
   <div class="full-header">
     <div class="banner-header">
-      <div class="subtitle"><img src="./img/detalhe_topBar.svg" alt="Logo"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>  
+      <div class="subtitle"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>  
+      <!-- <div class="subtitle"><img src="./img/detalhe_topBar_yellow.svg" alt="Logo"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>   -->
       <div class="social-media">
        <a href="https://instagram.com/semana.cinemanegrobh?igshid=1d6oomjwgo5aj" target="_blank"><em class="fab fa-instagram"></em></a>
        <a href="https://www.facebook.com/semana.cinemanegrobh" target="_blank"><em class="fab fa-facebook-f"></em></a>
@@ -39,7 +40,7 @@ function getHeader() {
     </div>
     <div class="container-header header">
         <div class="logo-menu">
-          <a href="/index"><img src="./img/logo.svg" class="logo" alt="Logo Menu" title="Início"/></a>
+          <a href="/index"><img src="./img/logo_purple.png" class="logo" alt="Logo Menu" title="Início"/></a>
         </div>
         <div class="navbar">
         <div class="menu__icon">

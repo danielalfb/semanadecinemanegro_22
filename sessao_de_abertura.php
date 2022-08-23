@@ -4,10 +4,10 @@ getHeader();
 ?>
 <div class="page">
   <section>
-      <div class="mainBanner">
+      <div class="mainBanner" style="background-image: url('img/backgrounds/sessao_de_abertura.jpg')">
         <div class="mainInfo">
           <div class="title">
-            <svg xmlns="http://www.w3.org/2000/svg" 
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" 
             xmlns:xlink="http://www.w3.org/1999/xlink" 
             version="1.1" 
             id="Layer_1" 
@@ -22,23 +22,14 @@ getHeader();
                 }
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
-            </svg>
-            <h1 lang="pt">Maria José Novais Oliveira - Nossa atriz</h1>
-            <h1 lang="en">Maria José Novais Oliveira: Our Actress</h1>
+            </svg> -->
+            <h1 lang="pt">HOMENAGEM MARIA JOSÉ NOVAIS A REJANE FARIA</h1>
+            <h1 lang="en">TRIBUTE MARIA JOSÉ NOVAIS TO REJANE FARIA</h1>
           </div>
-          <p lang="pt">
-          Sob curadoria de Alessandra Brito e André Novais Oliveira, a  sessão de abertura da Semana de Cinema Negro de Belo Horizonte traz um conjunto
-          de filmes para  celebrar a presença de Maria José de Novais Oliveira, a Dona Zezé, no cinema brasileiro contemporâneo rendendo homenagem a
-          atriz de Quintal e Ela volta na quinta, dentre outros títulos.  Esta sessão é composta por três filmes e um Teaser de um filme que está por vir sobre a atriz.
-          </p>
-          <p lang="en">
-          Under Alessandra Brito and André Novais Oliveira’s curatorship, the opening section of the Belo Horizonte Black Film Week brings 
-          a set of films to celebrate Maria José de Novais Oliveira’s presence in contemporary Brazilian cinema. Also known as Dona Zezé, 
-          this section is a tribute to this actress of Quintal and Ela volta na quinta, among other titles. This section is composed of three 
-          films and one teaser of a film about the actress that is yet to be published.
-          </p>
+          <p lang="pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus mauris, scelerisque tincidunt dui a, dignissim sodales velit. Duis a urna massa. Proin consectetur leo quis libero pellentesque sodales. Fusce eget aliquet sem. Vestibulum eget magna at mauris sagittis eleifend ut sed dolor. Vivamus id sem quis diam malesuada consectetur eu et libero. Cras urna felis, mollis et nulla ut, lobortis commodo ante. Maecenas non convallis neque. Quisque euismod placerat vestibulum. Etiam risus massa, tempus ac tincidunt quis, malesuada vitae nunc. Duis vulputate, augue ut laoreet efficitur, nulla tellus elementum justo, quis mollis ex massa at nulla. Vestibulum hendrerit sem et lobortis gravida.</p>
+          <p lang="en">Aenean ullamcorper et metus hendrerit malesuada. Praesent eu dui pharetra, vulputate dolor sed, semper mauris. In consequat dolor ac eleifend consectetur. Aliquam vulputate efficitur justo in congue. Nullam tincidunt tellus justo, fermentum gravida risus iaculis et. Curabitur et tincidunt risus. Aliquam interdum velit sit amet urna scelerisque, sed placerat enim gravida. In volutpat faucibus lorem, eget consectetur massa consequat sit amet. Duis fringilla feugiat nulla eget consequat. Donec sodales ligula lacus, sit amet egestas mi rutrum a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia elementum diam, eget congue elit euismod id.</p>
         </div>
-        <div class="mainIllus"><img src="img/sessaoAbertura.png" alt="" /></div>
+        <!-- <div class="mainIllus"><img src="img/sessaoAbertura.png" alt="" /></div> -->
       </div>
     </section>
     <section>

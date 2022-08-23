@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;400;500;600;700;800;900&display=swap&Josefin+Sans:wght@500&family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;400;500;600;700;800;900&display=swap&Josefin+Sans:wght@500&family=Roboto+Condensed&display=swap");
 
 :root {
-  --font-padrao: 'Fira Sans Extra Condensed', sans-serif;
+  --font-padrao: "Fira Sans Extra Condensed", sans-serif;
   --padding-padrao: 20px 0;
   --rmargin-padrao: 2rem;
   --lmargin-padrao: 3rem;
@@ -12,6 +12,13 @@
   --cor-rosinha: #ffb9b6;
   --cor-marrom: #522319;
   --cor-azul: #0566c6;
+  --cor-purple: #470e6b;
+  --cor-mustard: #e1ca48;
+  --cor-lilac: #75456c;
+  --cor-yellow: #fae30c;
+  --cor-lightpink: #ffeeda;
+  --cor-pink: #b03b96;
+  --cor-blue: #2771ae;
   --cor-cinza-menu: #5d5d5d;
   --cor-cinza-claro: #f3f3f3;
   --cor-cinza-padrao: #e6e6e6;
@@ -53,17 +60,21 @@ p {
 }
 .banner-header {
   display: flex;
-  background-color: #000;
+  background-color: var(--cor-purple);
   color: white;
   width: 100%;
   height: 45px;
   justify-content: space-between;
   align-items: center;
+  /* background: url("../img/croppedTexture.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 .subtitle {
   display: flex;
   align-items: center;
   margin-left: 50px;
+  color: #fff;
 }
 .subtitle img {
   width: 50px;
@@ -239,15 +250,17 @@ p {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  background-color: var(--cor-cinza-claro);
   margin-top: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .mainInfo {
   width: 700px;
   max-width: 100%;
   padding: var(--lmargin-padrao);
+  color: #fff;
 }
 .mainInfo > .title {
   display: flex;
@@ -309,6 +322,14 @@ a.btn:hover {
   margin-top: 40px;
 }
 
+.containerTest {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: var(--padding-padrao);
+  margin-top: 40px;
+}
 .container-inicio {
   margin-top: 170px;
 }
@@ -363,6 +384,7 @@ div.postBoxSession {
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 2rem;
+  background-color: #fff;
 
   box-shadow: 0px 3px 6px #00000029;
   transition: 0.3s;
@@ -428,7 +450,7 @@ div.resultBox ul {
   list-style: none;
 }
 .containerResults ul li::marker {
-  content: '';
+  content: "";
 }
 div.containerResults a {
   text-decoration: none;
@@ -744,7 +766,7 @@ footer {
 
 .footer-distributed h3 {
   color: #ffffff;
-  font: normal 36px 'Cookie', cursive;
+  font: normal 36px "Cookie", cursive;
   margin: 0;
 }
 
