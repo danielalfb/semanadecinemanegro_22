@@ -67,7 +67,10 @@ p {
   display: flex;
   align-items: center;
   margin-left: 50px;
-  color: #fff;
+}
+.subtitle a {
+  color: #fff !important;
+  text-decoration: none;
 }
 .subtitle img {
   width: 50px;
