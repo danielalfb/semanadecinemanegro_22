@@ -441,3 +441,33 @@ footer {
   -ms-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 650px) {
+  .subtitle {
+    margin-left: 20px;
+  }
+  .subtitle a {
+    font-size: 0.8rem;
+  }
+  .teamContainer {
+    flex-direction: column;
+  }
+  .teamContainer > .teamSing {
+    width: 100%;
+  }
+  .illustration-item1 {
+   display: none;
+  }
+  .illustration-item2 {
+    width: 416px;
+    height: 251px;
+    margin-bottom: -20px
+  }
+  .illustration-item3 {
+    display: none;
+  }
+  .patrocinio {
+    height: 100px;
+  }
+
+}
