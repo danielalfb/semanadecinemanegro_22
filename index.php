@@ -6,10 +6,9 @@ getHeader();
    <!--banner:-->
     <section>
       <div class="container-inicio center">
-        <img class="inicio" src="img/inicio.png" alt="Foto em família ilustrada"/>
             <div class="paragrafo-inicio">
-                <h3 lang="pt">Sobre a semana</h3>
-                <h3 lang="en">About the Week</h3>
+                <h1 lang="pt">Sobre a semana</h1>
+                <h1 lang="en">About the Week</h1>
               <p lang="pt">
               A Semana de Cinema Negro de Belo Horizonte apresenta, 
               de 10 a 16 de abril de 2021, um conjunto composto por 50 filmes 

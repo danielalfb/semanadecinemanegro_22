@@ -4,7 +4,7 @@ getHeader();
 ?>
 <div class="page">
   <section>
-      <div class="mainBanner" style="background-image: url('img/backgrounds/sessao_de_abertura.jpg')">
+      <div class="mainBanner" style="background-image: url('img/backgrounds/teste4.jpeg')">
         <div class="mainInfo">
           <div class="title">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" 

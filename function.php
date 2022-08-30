@@ -10,7 +10,7 @@ function getHeader() {
     <meta name="description" content="Site que abriga o festival Semana de Cinema Negro de Belo Horizonte, que promove exibições fílmicas de cineatas negros brasileiros, africanos e daa diáspora. Promovemos debates, seminários e oficinas." />
     <meta name="keywords" content="scnegrobh, cinema negro, cinema negro bh, cinema bh, cinema nacional, filmes brasileiros,festival de cinema, cinema, belo horizonte" />
     <meta name="author" content="" />
-    <title>Semana de Cinema Negro de Belo Horizonte</title>
+    <title>2ª Semana de Cinema Negro de Belo Horizonte</title>
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link rel="stylesheet" type="text/css" href="./css/screen.css" />
@@ -30,12 +30,20 @@ function getHeader() {
   <div class="full-header">
     <div class="banner-header">
       <div class="subtitle"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>  
-      <!-- <div class="subtitle"><img src="./img/detalhe_topBar_yellow.svg" alt="Logo"><p>Festival de Cinema Intercâmbio Cultural Brasil-África</p></div>   -->
-      <div class="social-media">
-       <a href="https://instagram.com/semana.cinemanegrobh?igshid=1d6oomjwgo5aj" target="_blank"><em class="fab fa-instagram"></em></a>
-       <a href="https://www.facebook.com/semana.cinemanegrobh" target="_blank"><em class="fab fa-facebook-f"></em></a>
-       <a href="https://www.youtube.com/channel/UCWEYVmhTOymK86IAzCmC70g" target="_blank"><em class="fab fa-youtube"></em></a>
-       <a href="https://twitter.com/scnegrobh" target="_blank"><em class="fab fa-twitter"></em></a>
+      <div class="navigation">
+        <div class="search-container">
+          <form>
+            <input  lang="pt" type="text" name="search" class="searchBarPT" placeholder="Pesquisa">
+          <input  lang="en" type="text" name="search" class="searchBarEN" placeholder="Search">
+          <button type="submit" id="searchButton"><em class="fa fa-search"></em></button>
+          </form>
+        </div>
+        <div class="social-media">
+          <a href="https://instagram.com/semana.cinemanegrobh?igshid=1d6oomjwgo5aj" target="_blank"><em class="fab fa-instagram"></em></a>
+          <a href="https://www.facebook.com/semana.cinemanegrobh" target="_blank"><em class="fab fa-facebook-f"></em></a>
+          <a href="https://www.youtube.com/channel/UCWEYVmhTOymK86IAzCmC70g" target="_blank"><em class="fab fa-youtube"></em></a>
+          <a href="https://twitter.com/scnegrobh" target="_blank"><em class="fab fa-twitter"></em></a>
+        </div>        
       </div>
     </div>
     <div class="container-header header">
@@ -85,20 +93,14 @@ function getHeader() {
             <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li>
             <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Credits</a></li>
-            <div class="search-container">
-           <form>
-            <input  lang="pt" type="text" name="search" class="searchBarPT" placeholder="Pesquisa">
-           <input  lang="en" type="text" name="search" class="searchBarEN" placeholder="Search">
-           <button type="submit" id="searchButton"><em class="fa fa-search"></em></button>
-           </form>
-           </div>
+           
          </ul>
         </div>
       </div>
       <div id="language" class="language">
         <ul>
-        <li lang="pt" id="pt_click" class="button_lang"><a><img lang="pt" src="./img/brazil.svg" alt="Brasil"/>Brasil | Português</a></li>
-        <li lang="en" id="en_click" class="button_lang"><a><img lang="en" src="./img/usa.svg" alt="USA"/>USA | English</a></li>
+        <li lang="pt" id="pt_click" class="button_lang"><a><img lang="pt" src="./img/icons/translate.png" alt="English"/>English</a></li>
+        <li lang="en" id="en_click" class="button_lang"><a><img lang="en" src="./img/icons/translate.png" alt="Português"/>Português</a></li>
         </ul>
       </div>
       </div>

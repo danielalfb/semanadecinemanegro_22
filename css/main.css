@@ -1,7 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;200;400;500;600;700;800;900&display=swap&Josefin+Sans:wght@500&family=Roboto+Condensed&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+@font-face {
+  font-family: "SpaceGrotesk-Medium";
+  src: url("./fonts/SpaceGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: "SpaceGrotesk-Light";
+  src: url("../fonts/SpaceGrotesk-Light.otf");
+}
+@font-face {
+  font-family: "SpaceGrotesk-Regular";
+  src: url("../fonts/SpaceGrotesk-Regular.otf");
+}
+@font-face {
+  font-family: "BackOut";
+  src: url("../fonts/BackOut.woff");
+}
 
 :root {
-  --font-padrao: "Fira Sans Extra Condensed", sans-serif;
+  --font-padrao: "SpaceGrotesk-Regular", sans-serif;
+  --font-titles: "BackOut", sans-serif;
   --padding-padrao: 20px 0;
   --rmargin-padrao: 2rem;
   --lmargin-padrao: 3rem;
@@ -24,6 +42,7 @@
   --cor-cinza-padrao: #e6e6e6;
   --cor-cinza: #ccc;
   --cor-cinza-escuro: #3b3b3b;
+  --cor-opacity-purple: rgb(71, 14, 107, 0.6);
 }
 *:focus {
   outline: none;
@@ -42,7 +61,15 @@ body {
   background-color: #fff;
 }
 
+h1 {
+  font-family: var(--font-titles);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
 h3 {
+  font-family: var(--font-titles);
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -64,17 +91,16 @@ p {
   color: white;
   width: 100%;
   height: 45px;
+  padding: 0 20px;
   justify-content: space-between;
-  align-items: center;
-  /* background: url("../img/croppedTexture.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
+  align-items: center;    
 }
 .subtitle {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  padding: 0 20px;
   color: #fff;
+  font-size: 1rem;
 }
 .subtitle img {
   width: 50px;
@@ -87,13 +113,54 @@ p {
 .banner-header p {
   margin-bottom: 0;
 }
+
+.navigation {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 60px;
+}
 .social-media {
-  margin-right: 50px;
+  display: flex;
+  gap: 15px;
 }
 .social-media .fab {
-  margin-left: 10px;
   color: white !important;
 }
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+
+}
+.search-container input {
+  width: 150px;
+  border: none;
+  border: 1px solid rgb(0, 0, 0, 0.6);
+  border-radius: 4px;
+  padding: 5px 10px;
+  outline: none;
+  position: absolute;
+  top: 7px;
+  text-transform: uppercase;
+  font-family: var(--font-padrao);
+}
+.search-container input:focus {
+  border: 1px solid var(--cor-cinza);
+}
+.search-container button {
+  background-color: transparent;
+  border-style: none;
+  position: relative;
+  left: 150px;
+  bottom: 3px;
+}
+.search-container button:hover {
+  cursor: pointer;
+}
+
 .container-header .logo-menu {
   max-width: 250px;
   padding: 0 10px;
@@ -137,7 +204,6 @@ p {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  margin-right: 200px;
   padding: 0;
 }
 
@@ -145,7 +211,7 @@ p {
   font-family: var(--font-padrao);
   text-decoration: none;
   color: var(--cor-cinza-menu);
-  font-size: 18px;
+  font-size: 1rem;
   text-transform: uppercase;
   display: block;
   height: 60px;
@@ -163,35 +229,6 @@ p {
 
 .container-header .navbar .menu__links ul li a:hover {
   color: #000;
-}
-
-.search-container {
-  display: flex;
-  align-items: center;
-}
-.search-container input {
-  width: 150px;
-  border: none;
-  border-bottom: 1px solid #000;
-  padding: 5px 10px;
-  outline: none;
-  position: absolute;
-  top: 65px;
-  text-transform: uppercase;
-  font-family: var(--font-padrao);
-}
-.search-container input:focus {
-  border-bottom: 1px solid var(--cor-cinza);
-}
-.search-container button {
-  background-color: transparent;
-  border-style: none;
-  position: relative;
-  left: 175px;
-  bottom: 10px;
-}
-.search-container button:hover {
-  cursor: pointer;
 }
 
 .conteudo {
@@ -250,7 +287,7 @@ p {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   margin-top: 120px;
   background-repeat: no-repeat;
@@ -265,7 +302,6 @@ p {
 .mainInfo > .title {
   display: flex;
   align-items: baseline;
-  padding-bottom: 50px;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 600;
@@ -1113,7 +1149,7 @@ footer {
   align-items: center;
 }
 .language img {
-  width: 30px;
+  width: 20px;
   margin-right: 10px;
 }
 .language ul {
