@@ -1,5 +1,5 @@
 var container = document.querySelector(".container");
-var src = "./img/filmes/";
+var src = "../mostras/img/filmes/";
 var boxContent = [];
 
 function fetchJson(url) {
