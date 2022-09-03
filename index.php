@@ -10,7 +10,7 @@ getHeader();
                 <h1 lang="pt">Sobre a semana</h1>
                 <h1 lang="en">About the Week</h1>
               <p lang="pt">
-              A Semana de Cinema Negro de Belo Horizonte apresenta, 
+              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
               de 10 a 16 de abril de 2021, um conjunto composto por 50 filmes 
               de cinematografias negras brasileiras, africanas e da diáspora 
               distribuídos em 3 mostras e 2 homenagens:  "Cinemas Africanos 
