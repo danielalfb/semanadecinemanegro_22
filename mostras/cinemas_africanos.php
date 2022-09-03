@@ -1,6 +1,6 @@
 <?php
-  require_once __DIR__ . '/function.php';
-  getHeader();
+  require_once __DIR__ .'../../function.php';
+  getHeaderMostras();
 ?>
   <div class="page">
     <section>
@@ -54,7 +54,7 @@
              fundamental texts related to FESPACO, some of them unpublished in Portuguese.
             </p>
         </div>
-        <div class="mainIllus"><img src="img/fespaco.png" alt="" /></div>
+        <div class="mainIllus"><img src="./img/oficinas/oficinas.png" alt="" /></div>
       </div>
     </section>
     <section>
@@ -64,9 +64,9 @@
 <?php
   getFooterOpen(); 
 ?>
-<script src="js/search.js"></script>
-<script src="js/fespaco.js"></script>
-<script src="js/collapse.js"></script>
-<script src="js/main.js"></script>
+<script src="../js/search.js"></script>
+<script src="../js/fespaco.js"></script>
+<script src="../js/collapse.js"></script>
+<script src="../js/main.js"></script>
   </body>
 </html>

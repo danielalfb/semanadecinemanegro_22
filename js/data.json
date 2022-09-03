@@ -10,7 +10,7 @@
       "img": "DZ_ALZHEIMER.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "mostras/sessao_de_abertura"
+      "homepage": "mostras/no_palco_nas_telas"
     },
     {
       "tituloPt": "QUINTAL",
@@ -22,7 +22,7 @@
       "img": "DZ_QUINTAL.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "mostras/sessao_de_abertura"
+      "homepage": "mostras/no_palco_nas_telas"
     },
     {
       "tituloPt": "RUA ATALÉIA",
@@ -34,7 +34,7 @@
       "img": "DZ_RUAATALEIA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "mostras/sessao_de_abertura.php"
+      "homepage": "mostras/no_palco_nas_telas.php"
     },
     {
       "tituloPt": "NOSSA MÃE ERA ATRIZ (TEASER)",
@@ -46,7 +46,7 @@
       "img": "DZ_NOSSAMAEERAATRIZ.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "mostras/sessao_de_abertura"
+      "homepage": "mostras/no_palco_nas_telas"
     }
   ],
   "fespaco": [
@@ -63,7 +63,7 @@
       "img": "MF_CABASCABO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_fespaco"
+      "homepage": "/mostras/cinemas_africanos"
     },
     {
       "tituloPt": "MUNA MOTO",
@@ -78,7 +78,7 @@
       "img": "MF_MUNAMOTO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_fespaco"
+      "homepage": "/mostras/cinemas_africanos"
     },
     {
       "tituloPt": "OUAGA, CAPITAL DO CINEMA",
@@ -93,7 +93,7 @@
       "img": "MF_OUAGACAPITALEDUCINEMA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_fespaco.php"
+      "homepage": "/mostras/cinemas_africanos.php"
     },
     {
       "tituloPt": "IRMÃS DA TELA - MULHERES AFRICANAS NO CINEMA",
@@ -108,7 +108,7 @@
       "img": "MF_SISTERSOFTHESCREENAFRICANWOMENINCINEMA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_fespaco"
+      "homepage": "/mostras/cinemas_africanos"
     },
     {
       "tituloPt": "TAHAR CHÈRIAA, À SOMBRA DO BAOBÁ",
@@ -123,7 +123,7 @@
       "img": "MF_TAHARCHERIAAALOMBREDUBAOBAB.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_fespaco"
+      "homepage": "/mostras/cinemas_africanos"
     }
   ],
   "surreal16": [
@@ -138,7 +138,7 @@
       "img": "MN_HELLORAIN.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_surreal16"
+      "homepage": "/mostras/med_hondo"
     },
     {
       "tituloPt": "AMOR DIGITAL",
@@ -151,7 +151,7 @@
       "img": "MN_DIGITALLOVE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_surreal16"
+      "homepage": "/mostras/med_hondo"
     },
     {
       "tituloPt": "BROOD",
@@ -164,7 +164,7 @@
       "img": "MN_BROOD.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_surreal16"
+      "homepage": "/mostras/med_hondo"
     },
     {
       "tituloPt": "ENSAIOS",
@@ -177,7 +177,7 @@
       "img": "MN_REHEARSAL.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_surreal16"
+      "homepage": "/mostras/med_hondo"
     },
     {
       "tituloPt": "VISÕES",
@@ -190,7 +190,7 @@
       "img": "MN_VISIONS.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_surreal16"
+      "homepage": "/mostras/med_hondo"
     }
   ],
   "sarahMaldoror": [
@@ -205,7 +205,7 @@
       "img": "SM_ETLESCHIENSSETAISAIENTDAIMECESAIRE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_homenagem"
+      "homepage": "/mostras/nicho_54"
     },
     {
       "tituloPt": "AIMÉ CÉSAIRE, MÁSCARA DAS PALAVRAS",
@@ -218,7 +218,7 @@
       "img": "SM_AIMECESAIRELEMASQUEDEMOTS.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_homenagem"
+      "homepage": "/mostras/nicho_54"
     },
     {
       "tituloPt": "LÉON G. DAMAS",
@@ -231,7 +231,7 @@
       "img": "SM_LEONGDAMAS.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/mostra_homenagem"
+      "homepage": "/mostras/nicho_54"
     }
   ],
   "sessaoEspecial": [
@@ -245,7 +245,7 @@
       "img": "CEP_ATEOFIM.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     }
   ],
   "sessaoVivencias": [
@@ -259,7 +259,7 @@
       "img": "CEP_AMORTEBRANCADOFEITICEIRONEGRO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "DE UM LADO DO ATLÂNTICO",
@@ -271,7 +271,7 @@
       "img": "CEP_DEUMLADODOATLANTICO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "EGUM",
@@ -283,7 +283,7 @@
       "img": "CEP_EGUM.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "IRUN ORÍ",
@@ -295,7 +295,7 @@
       "img": "CEP_IRUNORI.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "JAÍZA",
@@ -307,7 +307,7 @@
       "img": "CEP_JAIZA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "NOVO MUNDO",
@@ -319,7 +319,7 @@
       "img": "CEP_NOVOMUNDO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "OBATALA FILM",
@@ -331,7 +331,7 @@
       "img": "CEP_OBATALAFILM.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "PATTAKI",
@@ -343,7 +343,7 @@
       "img": "CEP_PATTAKI.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "RAÍZES",
@@ -355,7 +355,7 @@
       "img": "CEP_RAIZES.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "THINYA",
@@ -367,7 +367,7 @@
       "img": "CEP_THINYA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     }
   ],
   "sessaoAfetos": [
@@ -381,7 +381,7 @@
       "img": "CEP_ABEIRADOPLANETAMAINHASOPROUAGENTE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "BONDE",
@@ -393,7 +393,7 @@
       "img": "CEP_BONDE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "CANDOMBE DO AÇUDE: O PASSADO CONTADO PELO CANTO. EP. 1: PANDEMIA - ISOLAMENTO OU RESPIRO?",
@@ -405,7 +405,7 @@
       "img": "CEP_CAMDOMBEDOACUDE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "ENTRE NÓS, UM SEGREDO",
@@ -417,7 +417,7 @@
       "img": "CEP_ENTRENOSUMSEGREDO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "FILHAS DE LAVADEIRA",
@@ -429,7 +429,7 @@
       "img": "CEP_FILHASDELAVADEIRA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "5 FITAS",
@@ -441,7 +441,7 @@
       "img": "CEP_5FITAS.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "LOOPING",
@@ -453,7 +453,7 @@
       "img": "CEP_LOOPING.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "MOVIMENTO",
@@ -465,7 +465,7 @@
       "img": "CEP_MOVIMENTO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "NASCENTE",
@@ -477,7 +477,7 @@
       "img": "CEP_NASCENTE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "OLHOS DE ERÊ",
@@ -489,7 +489,7 @@
       "img": "CEP_OLHOSDEERE.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "PERIFERICU",
@@ -501,7 +501,7 @@
       "img": "CEP_PERIFERICU.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "RÃ",
@@ -513,7 +513,7 @@
       "img": "CEP_RA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     }
   ],
   "sessaoGritos": [
@@ -527,7 +527,7 @@
       "img": "CEP_23MINUTOS.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "CALMARIA",
@@ -539,7 +539,7 @@
       "img": "CEP_CALMARIA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "FILHA NATURAL",
@@ -551,7 +551,7 @@
       "img": "CEP_FILHANATURAL.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "INTERVENÇÃO JAH",
@@ -563,7 +563,7 @@
       "img": "CEP_INTERVENCAOJAH.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "MORDE & ASSOPRA",
@@ -575,7 +575,7 @@
       "img": "CEP_MORDEASSOPRA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "PIETÀ",
@@ -587,7 +587,7 @@
       "img": "CEP_PIETA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "REBU",
@@ -599,7 +599,7 @@
       "img": "CEP_REBU.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "SER FELIZ NO VÃO",
@@ -611,7 +611,7 @@
       "img": "CEP_SERFELIZNOVAO.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "UMA NOITE SEM LUA",
@@ -623,7 +623,7 @@
       "img": "CEP_UMANOITESEMLUA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     },
     {
       "tituloPt": "VOCÊ TEM OLHOS TRISTES",
@@ -635,7 +635,7 @@
       "img": "CEP_VOCETEMOLHOSTRISTES.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/cine_escrituras_pretas"
+      "homepage": "/mostras/ibejis"
     }
   ],
 

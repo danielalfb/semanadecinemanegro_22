@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/function.php';
-getHeader();
+require_once __DIR__ .'../../function.php';
+getHeaderMostras();
 ?>
   <div class="page">
     <section>
@@ -65,9 +65,9 @@ getHeader();
 <?php
   getFooterOpen(); 
 ?>
-  <script src="js/search.js"></script>
-  <script src="js/cineEscrituras.js"></script>
-    <script src="js/collapse.js"></script>
-    <script src="js/main.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/cineEscrituras.js"></script>
+    <script src="../js/collapse.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
