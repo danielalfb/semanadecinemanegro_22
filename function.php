@@ -11,9 +11,9 @@ function getHeader() {
     <meta name="keywords" content="scnegrobh, cinema negro, cinema negro bh, cinema bh, cinema nacional, filmes brasileiros,festival de cinema, cinema, belo horizonte" />
     <meta name="author" content="" />
     <title>2ª Semana de Cinema Negro de Belo Horizonte</title>
-    <link rel="icon" type="image/png" href="./img/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" href="./css/screen.css" />
+    <link rel="icon" type="image/png" href="../img/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/screen.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
    <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTZQJ6P6MP"></script>
@@ -67,8 +67,8 @@ function getHeader() {
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/sessao_de_abertura.php">Maria José Novais Oliveira - Our Actress</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/sessao_de_abertura.php">Maria José Novais Oliveira - Nossa atriz</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/sessao_de_abertura.php">Maria José Novais Oliveira - Our Actress</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostra_fespaco.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostra_fespaco.php">African Films Revisited: The Origins of FESPACO</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostra_surreal16.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
@@ -115,8 +115,8 @@ function getFooterOpen() { ?>
   <a href="/inicio"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
   <div>
           <ul>
-          <li lang="pt"><a href="/sessao_de_abertura">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="/sessao_de_abertura">Maria José Novais Oliveira - Our Actress</a></li>
+          <li lang="pt"><a href="/mostras/sessao_de_abertura">Maria José Novais Oliveira - Nossa atriz</a></li>
+                  <li lang="en"><a href="/mostras/sessao_de_abertura">Maria José Novais Oliveira - Our Actress</a></li>
                   <li lang="pt"><a href="/mostra_fespaco">Cinemas Africanos em revista: as origens do FESPACO</a></li>
                   <li lang="en"><a href="/mostra_fespaco">African Films Revisited: The Origins of FESPACO</a></li>
                   <li lang="pt"><a href="/mostra_surreal16">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>

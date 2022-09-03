@@ -1,10 +1,10 @@
 <?php
-require_once __DIR__ . '/function.php';
+require_once __DIR__ . '../../function.php';
 getHeader();
 ?>
 <div class="page">
   <section>
-      <div class="mainBanner" style="background-image: url('img/backgrounds/teste4.jpeg')">
+      <div class="mainBanner" style="background-image: url('../img/backgrounds/teste4.jpeg')">
         <div class="mainInfo">
           <div class="title">
             <!-- <svg xmlns="http://www.w3.org/2000/svg" 
@@ -40,9 +40,9 @@ getHeader();
     <?php
       getFooterOpen(); 
     ?>
-    <script src="js/search.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/donaZeze.js"></script>
-    <script src="js/collapse.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/donaZeze.js"></script>
+    <script src="../js/collapse.js"></script>
   </body>
 </html>

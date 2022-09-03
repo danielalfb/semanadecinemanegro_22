@@ -10,7 +10,7 @@
       "img": "DZ_ALZHEIMER.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/sessao_de_abertura"
+      "homepage": "mostras/sessao_de_abertura"
     },
     {
       "tituloPt": "QUINTAL",
@@ -22,7 +22,7 @@
       "img": "DZ_QUINTAL.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/sessao_de_abertura"
+      "homepage": "mostras/sessao_de_abertura"
     },
     {
       "tituloPt": "RUA ATALÉIA",
@@ -34,7 +34,7 @@
       "img": "DZ_RUAATALEIA.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/sessao_de_abertura.php"
+      "homepage": "mostras/sessao_de_abertura.php"
     },
     {
       "tituloPt": "NOSSA MÃE ERA ATRIZ (TEASER)",
@@ -46,7 +46,7 @@
       "img": "DZ_NOSSAMAEERAATRIZ.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
-      "homepage": "/sessao_de_abertura"
+      "homepage": "mostras/sessao_de_abertura"
     }
   ],
   "fespaco": [
