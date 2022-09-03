@@ -23,8 +23,8 @@ getHeaderMostras();
               </style>
             <path class="st0" d="M39.9,28.8L11.1,57.6L0,47l18.4-18.2L0,10.6L11.1,0L39.9,28.8z"/>
             </svg> -->
-            <h1 lang="pt">HOMENAGEM MARIA JOSÉ NOVAIS A REJANE FARIA</h1>
-            <h1 lang="en">TRIBUTE MARIA JOSÉ NOVAIS TO REJANE FARIA</h1>
+            <h1 lang="pt">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</h1>
+            <h1 lang="en">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</h1>
           </div>
           <p lang="pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacus mauris, scelerisque tincidunt dui a, dignissim sodales velit. Duis a urna massa. Proin consectetur leo quis libero pellentesque sodales. Fusce eget aliquet sem. Vestibulum eget magna at mauris sagittis eleifend ut sed dolor. Vivamus id sem quis diam malesuada consectetur eu et libero. Cras urna felis, mollis et nulla ut, lobortis commodo ante. Maecenas non convallis neque. Quisque euismod placerat vestibulum. Etiam risus massa, tempus ac tincidunt quis, malesuada vitae nunc. Duis vulputate, augue ut laoreet efficitur, nulla tellus elementum justo, quis mollis ex massa at nulla. Vestibulum hendrerit sem et lobortis gravida.</p>
           <p lang="en">Aenean ullamcorper et metus hendrerit malesuada. Praesent eu dui pharetra, vulputate dolor sed, semper mauris. In consequat dolor ac eleifend consectetur. Aliquam vulputate efficitur justo in congue. Nullam tincidunt tellus justo, fermentum gravida risus iaculis et. Curabitur et tincidunt risus. Aliquam interdum velit sit amet urna scelerisque, sed placerat enim gravida. In volutpat faucibus lorem, eget consectetur massa consequat sit amet. Duis fringilla feugiat nulla eget consequat. Donec sodales ligula lacus, sit amet egestas mi rutrum a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia elementum diam, eget congue elit euismod id.</p>
@@ -42,7 +42,7 @@ getHeaderMostras();
     ?>
     <script src="../js/search.js"></script>
     <script src="../js/main.js"></script>
-    <script src="../js/donaZeze.js"></script>
+    <script src="../js/palcoNasTelas.js"></script>
     <script src="../js/collapse.js"></script>
   </body>
 </html>

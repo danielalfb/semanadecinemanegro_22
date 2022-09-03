@@ -407,6 +407,11 @@ p.descriptionSession {
   width: 91%;
   margin-bottom: 50px;
 }
+h3.postSubTitle {
+  font-family: var(--font-padrao);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 
 div.postBox,
 div.postBoxAfetos,
@@ -511,8 +516,11 @@ div.btn-filmes {
 }
 .collapsible,
 .content {
-  width: 600px;
+  width: 100%;
   border-radius: 5px;
+}
+.info {
+    width: 100%;
 }
 .collapsible {
   font-family: var(--font-padrao);

@@ -14,7 +14,7 @@ render();
 async function render() {
   var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
   resultTotal = [
-    ...data.donaZeze,
+    ...data.palcoNasTelas,
     ...data.fespaco,
     ...data.surreal16,
     ...data.sarahMaldoror,
