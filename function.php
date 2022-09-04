@@ -67,16 +67,16 @@ function getHeader() {
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">Maria José Novais Oliveira - Our Actress</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">African Films Revisited: The Origins of FESPACO</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">Surreal16 Collective, a new look at nigerian cinema</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">Ibejis</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">Ibejis</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
                </div>
@@ -177,14 +177,16 @@ function getHeaderMostras() {
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">Maria José Novais Oliveira - Our Actress</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">African Films Revisited: The Origins of FESPACO</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">Surreal16 Collective, a new look at nigerian cinema</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">Cine-Escrituras Pretas</a></li>
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">Black Film-Writings</a></li>
                </div>
@@ -226,14 +228,14 @@ function getFooterOpen() { ?>
   <a href="/inicio"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
   <div>
           <ul>
-          <li lang="pt"><a href="/mostras/no_palco_nas_telas">Maria José Novais Oliveira - Nossa atriz</a></li>
-                  <li lang="en"><a href="/mostras/no_palco_nas_telas">Maria José Novais Oliveira - Our Actress</a></li>
-                  <li lang="pt"><a href="/mostras/cinemas_africanos">Cinemas Africanos em revista: as origens do FESPACO</a></li>
-                  <li lang="en"><a href="/mostras/cinemas_africanos">African Films Revisited: The Origins of FESPACO</a></li>
-                  <li lang="pt"><a href="/mostras/med_hondo">Surreal16 Collective, Um Novo Olhar para o Cinema Nigeriano</a></li>
-                  <li lang="en"><a href="/mostras/med_hondo">Surreal16 Collective, a new look at nigerian cinema</a></li>
-                  <li lang="pt"><a href="/mostras/nicho_54">Cinema, negritude e poesia: Uma homenagem a Sarah Maldoror</a></li>
-                  <li lang="en"><a href="/mostras/nicho_54">Film, Blackness and Poetry: A tribute to Sarah Maldoror</a></li>
+          <li lang="pt"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="en"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="pt"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="en"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="pt"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="en"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
                   <li lang="pt"><a href="/mostras/ibejis">Cine-Escrituras Pretas</a></li>
                   <li lang="en"><a href="/mostras/ibejis">Black Film-Writings</a></li>
         </ul>

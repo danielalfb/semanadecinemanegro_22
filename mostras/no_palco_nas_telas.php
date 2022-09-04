@@ -4,7 +4,7 @@ getHeaderMostras();
 ?>
 <div class="page">
   <section>
-      <div class="mainBanner" style="background-image: url('./img/banners/banner1.svg'); height: 750px">
+      <div class="mainBanner" style="background-image: url('./img/banners/banner7.svg'); height: 350px">
         <div class="mainInfo" style="color: #fff">
           <div class="title">
             <h1 lang="pt">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</h1>
