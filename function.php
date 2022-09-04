@@ -218,7 +218,8 @@ function getHeaderMostras() {
  <?php }
  
 function getFooterOpen() { ?>
-<div class="patrocinio"><div class="patrocinio-img"></div></div>
+<!-- <div class="patrocinio"><div class="patrocinio-img"></div></div> -->
+<img style="width: 100%; background-color: #f8f8f8" src="../img/logomarcas.png" alt="" />
 <footer class="footer-distributed">
 
 <div class="footer-left">
