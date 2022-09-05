@@ -82,9 +82,11 @@ function getHeader() {
                </div>
            </div>
            <div class="dropdown">
-               <li lang="pt"><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
-               <li lang="en"><a>Activities <em class="fas fa-chevron-down"></em></a></li>
+               <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
+               <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Oficinas</a></li>
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Workshops</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/debates.php">Conversas e Debates</a></li>                  
@@ -192,9 +194,11 @@ function getHeaderMostras() {
                </div>
            </div>
            <div class="dropdown">
-               <li lang="pt"><a>Atividades <em class="fas fa-chevron-down"></em></a></li>
-               <li lang="en"><a>Activities <em class="fas fa-chevron-down"></em></a></li>
+               <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
+               <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Oficinas</a></li>
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Workshops</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/debates.php">Conversas e Debates</a></li>                  
@@ -220,8 +224,7 @@ function getHeaderMostras() {
  <?php }
  
 function getFooterOpen() { ?>
-<!-- <div class="patrocinio"><div class="patrocinio-img"></div></div> -->
-<img style="width: 100%; background-color: #f8f8f8" src="../img/logomarcas.png" alt="" />
+<img style="width: 100%; background-color: #f8f8f8" src="./img/logomarcas.png" alt="" />
 <footer class="footer-distributed">
 
 <div class="footer-left">

@@ -162,7 +162,7 @@ p {
 }
 
 .container-header .logo-menu {
-  max-width: 250px;
+  max-width: 300px;
   padding: 0 10px;
   overflow: hidden;
 }
@@ -444,7 +444,7 @@ div.postInfo {
   color: var(--cor-cinza-escuro);
 }
 .postInfo > p {
-  min-height: 250px;
+  min-height: 300px;
   font-size: 16px;
   font-weight: 400;
   margin: 10px 15px 0 0;
@@ -576,10 +576,48 @@ i.fas {
   padding: 1rem !important;
   margin: 0 1rem 1rem !important;
 }
+
+.postBoxOficina .minCurr {
+  display: table !important;
+  align-items: center !important;
+  width: 90% !important;
+  padding: 1rem !important;
+  margin: 0 1rem 1rem !important;
+}
+
+.postBoxMasterclass {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  gap: 4rem;
+  padding: 1rem !important;
+  margin: -50px 1rem 0 1rem !important;
+}
+
+.postBoxMasterclass > .postInfo p {
+ min-height: 0;
+}
+
+.postBoxMasterclass >  .minInfo {
+ width: 100%;
+}
+
+.postBoxMasterclass > .minCurr {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px;
+  background-color: var(--cor-purple);
+}
+
+.postBoxMasterclass > .minCurr img {
+  width: auto;
+  height: 500px;
+}
+
 .minInfoImg {
   width: 120px;
   height: 120px;
-  margin-bottom: -50px;
+  margin-bottom: -15px;
   border-radius: 50%;
   border: 5px solid var(--cor-lilac);
   position: relative;
