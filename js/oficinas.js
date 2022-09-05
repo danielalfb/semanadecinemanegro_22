@@ -21,8 +21,8 @@ async function loadData() {
       <h1 lang="pt">${boxContent[i].tituloPt}</h1>
       <h1 lang="en">${boxContent[i].tituloEng}</h>
       <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2>
-      <p lang="pt">${boxContent[i].descricaoPt}</p>
-      <p lang="en">${boxContent[i].descricaoEng}</p>
+      <p lang="pt" style="min-height: 300px!important;">${boxContent[i].descricaoPt}</p>
+      <p lang="en" style="min-height: 300px!important;">${boxContent[i].descricaoEng}</p>
     </div>
     <div class="minInfo">
       <div class="postImg minInfoImg" style="background-image: url('${src}${boxContent[i].img}')"></div>

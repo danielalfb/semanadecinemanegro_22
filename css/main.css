@@ -316,6 +316,21 @@ p {
   margin: 10px 40px 0 0;
 }
 
+.mainSubtitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 3rem 0 3rem;
+}
+
+.mainSubtitle > p {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
 a.btn {
   display: flex;
   align-items: center;
@@ -444,7 +459,6 @@ div.postInfo {
   color: var(--cor-cinza-escuro);
 }
 .postInfo > p {
-  min-height: 300px;
   font-size: 16px;
   font-weight: 400;
   margin: 10px 15px 0 0;
