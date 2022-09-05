@@ -22,7 +22,7 @@
   getFooterOpen(); 
 ?>
 <script src="../js/search.js"></script>
-<script src="../js/fespaco.js"></script>
+<script src="../js/cinemasAfricanos.js"></script>
 <script src="../js/collapse.js"></script>
 <script src="../js/main.js"></script>
   </body>

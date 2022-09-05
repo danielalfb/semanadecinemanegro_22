@@ -10,7 +10,7 @@ function fetchJson(url) {
 
 async function loadData() {
   var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
-  boxContent = data.fespaco;
+  boxContent = data.medHondo;
 
   function createData() {
     for (i = 0; i < boxContent.length; i++) {
@@ -23,9 +23,6 @@ async function loadData() {
         <h1 lang="en">${boxContent[i].tituloEng}</h1>
         <h3 lang="pt">${boxContent[i].localDuracao}</h3>
         <h3 lang="en">${boxContent[i].localDuracaoEng}</h3>
-        <strong><p lang="pt">Disponível: ${boxContent[i].dataPt}</p>
-        <p lang="en">Available: ${boxContent[i].dataEng}</p></strong>
-        <p lang="en"><i>* Please note that the timezone considered is GMT-3 Brazilian Time.</i></p>
         <p lang="pt">${boxContent[i].sinopsePt}</p>
         <p lang="en">${boxContent[i].sinopseEng}</p>
         <div lang="pt" class="btn-filmes">

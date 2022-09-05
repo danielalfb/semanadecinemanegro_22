@@ -67,7 +67,7 @@ getHeaderMostras();
       getFooterOpen(); 
       ?>  
     <script src="../js/search.js"></script>
-    <script src="../js/surreal16.js"></script>
+    <script src="../js/medHondo.js"></script>
     <script src="../js/collapse.js"></script>
     <script src="../js/main.js"></script>
   </body>
