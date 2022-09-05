@@ -444,6 +444,7 @@ div.postInfo {
   color: var(--cor-cinza-escuro);
 }
 .postInfo > p {
+  min-height: 250px;
   font-size: 16px;
   font-weight: 400;
   margin: 10px 15px 0 0;
@@ -580,12 +581,12 @@ i.fas {
   height: 120px;
   margin-bottom: -50px;
   border-radius: 50%;
-  border: 5px solid var(--cor-salmao);
+  border: 5px solid var(--cor-lilac);
   position: relative;
 }
 div.minCurr {
   width: 92%;
-  background-color: var(--cor-salmao);
+  background-color: var(--cor-lilac);
   padding: 4rem 1.5rem 1.5rem 1.5rem;
   border-radius: 5px;
 }
