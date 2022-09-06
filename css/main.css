@@ -23,13 +23,6 @@
   --padding-padrao: 20px 0;
   --rmargin-padrao: 2rem;
   --lmargin-padrao: 3rem;
-  --cor-verde: #3d604c;
-  --cor-salmao: #ff6161;
-  --cor-laranja: #ff8c1a;
-  --cor-laranjao: #ff5a19;
-  --cor-rosinha: #ffb9b6;
-  --cor-marrom: #522319;
-  --cor-azul: #0566c6;
   --cor-purple: #470e6b;
   --cor-mustard: #e1ca48;
   --cor-lilac: #75456c;
@@ -680,8 +673,8 @@ div.debateContainer {
 div.debateTitle {
   width: 100%;
   border-radius: 10px 10px 0 0;
-  background-color: var(--cor-laranjao);
-  color: #fff;
+  background-color: var(--cor-purple);
+  color: var(--cor-lightpink);
 }
 div.debateTitle > h1 {
   font-size: 18px;

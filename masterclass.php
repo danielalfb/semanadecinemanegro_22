@@ -4,8 +4,8 @@ getHeader();
 ?>
   <div class="page">
    <section>
-      <div class="mainBanner" style="background-image: url('./img/texture.png'); margin-top: 50px; height: 200px">
-        <div class="mainInfo" style="color: #fff">
+      <div class="mainBanner" style="background-color: var(--cor-blue); margin-top: 50px; height: 200px">
+        <div class="mainInfo" style="color: var(--cor-lightpink)">
           <div class="title">
             <h1 lang="pt">MASTERCLASS</h1>
             <h1 lang="en">MASTERCLASS</h1>

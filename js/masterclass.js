@@ -18,7 +18,7 @@ async function loadData() {
       postBox.className = "postBoxMasterclass";
       postBox.innerHTML = `
       <div class="postInfo">
-        <h1 lang="pt">${boxContent[i].tituloPt}</h1>
+        <h1 lang="pt" style="color: var(--cor-blue)">${boxContent[i].tituloPt}</h1>
         <h1 lang="en">${boxContent[i].tituloEng}</h>
         <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2>
         <p lang="pt">${boxContent[i].descricaoPt}</p>

@@ -8,6 +8,8 @@ function fetchJson(url) {
   });
 }
 
+// <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
+
 async function loadData() {
   var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
   boxContent = data.debates;
@@ -27,7 +29,6 @@ async function loadData() {
         <span>${boxContent[i].direcao1}<br><p>${boxContent[i].funcao1}</p></li>
         <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img2}')"></div>
         <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
-        <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
         </ul>
         </div></div>`;
         container.appendChild(debateBox2);
@@ -46,7 +47,6 @@ async function loadData() {
             <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
             <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img3}')"></div>
             <span>${boxContent[i].direcao3}<br><p>${boxContent[i].funcao3}</p></li>
-            <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
             </ul>
             </div></div>`;
         container.appendChild(debateBox3);
@@ -67,8 +67,7 @@ async function loadData() {
               <span>${boxContent[i].direcao3}<br><p>${boxContent[i].funcao3}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img4}')"></div>
               <span>${boxContent[i].direcao4}<br><p>${boxContent[i].funcao4}</p></li>
-              <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
-              </ul>
+                </ul>
               </div></div>`;
         container.appendChild(debateBox4);
       } else if (boxContent[i].participantes === 5) {
@@ -90,8 +89,7 @@ async function loadData() {
               <span>${boxContent[i].direcao4}<br><p>${boxContent[i].funcao4}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img5}')"></div>
               <span>${boxContent[i].direcao5}<br><p>${boxContent[i].funcao5}</p></li>
-              <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
-              </ul>
+                </ul>
               </div></div>`;
         container.appendChild(debateBox5);
       } else if (boxContent[i].participantes === 6) {
@@ -115,8 +113,7 @@ async function loadData() {
               <span>${boxContent[i].direcao5}<br><p>${boxContent[i].funcao5}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img6}')"></div>
               <span>${boxContent[i].direcao6}<br><p>${boxContent[i].funcao6}</p></li>
-              <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
-              </ul>
+                </ul>
               </div></div>`;
         container.appendChild(debateBox6);
       } else {
@@ -142,8 +139,7 @@ async function loadData() {
               <span>${boxContent[i].direcao6}<br><p>${boxContent[i].funcao6}</p></li>
               <li><div class="postImg debateImg" style="background-image: url('${src}${boxContent[i].img7}')"></div>
               <span>${boxContent[i].direcao7}<br><p>${boxContent[i].funcao7}</p></li>
-              <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
-              </ul>
+                </ul>
               </div></div>`;
         container.appendChild(debateBox7);
       }
