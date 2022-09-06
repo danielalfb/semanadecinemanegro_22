@@ -10,7 +10,7 @@ function fetchJson(url) {
 
 async function loadData() {
   var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
-  boxContent = data.sarahMaldoror;
+  boxContent = data.nicho54;
 
   function createData() {
     for (i = 0; i < boxContent.length; i++) {

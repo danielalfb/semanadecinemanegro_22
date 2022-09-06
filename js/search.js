@@ -17,7 +17,7 @@ async function render() {
     ...data.palcoNasTelas,
     ...data.fespaco,
     ...data.surreal16,
-    ...data.sarahMaldoror,
+    ...data.nicho54,
     ...data.sessaoEspecial,
     ...data.sessaoVivencias,
     ...data.sessaoAfetos,

@@ -29,7 +29,7 @@ getHeaderMostras();
   getFooterOpen(); 
 ?>   
     <script src="../js/search.js"></script>
-    <script src="../js/sarahMaldoror.js"></script>
+    <script src="../js/nicho54.js"></script>
     <script src="../js/collapse.js"></script>
     <script src="../js/main.js"></script>
   </body>
