@@ -4,8 +4,8 @@ getHeader();
 ?>
 <div class="page">
   <section>
-      <div class="mainBanner" style="background-color: var(--cor-yellow); margin-top: 50px; height: 200px">
-        <div class="mainInfo" style="color: var(--cor-purple)">
+      <div class="mainBanner" style="background-color: var(--cor-purple); margin-top: 50px; height: 200px">
+        <div class="mainInfo" style="color: var(--cor-lightpink)">
           <div class="title">
             <h1 lang="pt">DEBATES</h1>
             <h1 lang="en">DEBATES</h1>
