@@ -29,8 +29,8 @@ async function loadData() {
     var sesTitleEN = document.createElement("a");
     var descriptionPT = document.createElement("p");
     var descriptionEN = document.createElement("p");
-    sesTitlePT.className = "sessionTitle1";
-    sesTitleEN.className = "sessionTitle1";
+    sesTitlePT.className = "sessionTitle";
+    sesTitleEN.className = "sessionTitle";
     sesTitlePT.setAttribute("lang", "pt");
     sesTitleEN.setAttribute("lang", "en");
     sesTitlePT.innerHTML =
@@ -42,37 +42,23 @@ async function loadData() {
     descriptionPT.setAttribute("lang", "pt");
     descriptionEN.setAttribute("lang", "en");
     descriptionPT.innerHTML =
-      "Dedicada a pensar como as articulações dos elementos estéticos e narrativos no cinema circunscrevem uma forma de cine-escritura preta que, em lugar da mera assimilação de formas dadas, busca ressignificar um repertório de técnicas já consolidadas, muitas destas até mesmo desgastadas. Segundo as curadoras, isso se dá à luz de uma experiência negra, afrodescendente, operando uma resistência que é, sobretudo, cultural e em favor do não-apagamento de maneiras muito particulares de vivenciar e estar no mundo.";
+      "Cinema como foco na história e na cultura negra, que revive e coloca na tela experiências negras brasileira e corpos negros de várias matizes e expressões de gênero, todos encarnados em uma marca comum, a da ancestralidade. As obras deste conjunto nos ajudam a entender a ancestralidade como base fundamental das existências destes sujeitos diaspóricos, possibilitando o encontro e a re-inscrição do passado no presente e a imaginação de outros futuros que se fazem no agora.";
     descriptionEN.innerHTML =
-      "Dedicated to pondering how the articulations of aesthetic and narrative elements in film circumscribe a way of black film-writing that, instead of simple assimilation of given forms, attempts to give new meanings to a repertoire of established techniques, many of which are worn out. According to the curators, this articulation generates a black experience, afro-descendant, creating a resistance that is, above all, cultural and against the erasing of the very particular ways of experiencing and being in the world.";
+      "Cinema with focus on black history and culture, that revives and puts on the screen the black Brazilian experiences and black bodies of various hues and gender expressions, all of which is embodied in a common factor, that of ancestry. The films in this program help us understand ancestry as a fundamental base of these diasporic subjects’ existences, allowing the encounter and the re-inscription of the past into the present and the imagination of other futures built in the present.";
     container.appendChild(sesTitlePT);
     container.appendChild(sesTitleEN);
     container.appendChild(descriptionPT);
     container.appendChild(descriptionEN);
     for (let i = 0; i < sessaoDistopia.length; i++) {
       var postBox = document.createElement("div");
-      postBox.className = "postBox1 hidden";
+      postBox.className = "postBox hidden";
       postBox.innerHTML = `
-      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoDistopia[i].img}')"></div>
-      <div class="postInfo"><h1 lang="pt">${sessaoDistopia[i].tituloPt}</h1>
-        <h1 lang="en">${sessaoDistopia[i].tituloEng}</h1><h3>${sessaoDistopia[i].localDuracao}</h3>
-        <p lang="pt">${sessaoDistopia[i].sinopsePt}</p>
-        <p lang="en">${sessaoDistopia[i].sinopseEng}</p>
-        <div lang="pt" class="btn-filmes">
-          <div class="info">
-            <button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-            <div class="content"><ul>${sessaoDistopia[i].fichaTecnica}</ul></div>
-          </div>
-          <a href="${sessaoDistopia[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a>
-        </div>
-        <div lang="en" class="btn-filmes">
-          <div class="info">
-            <button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-            <div class="content"><ul>${sessaoDistopia[i].fichaTecnica}</ul></div>
-          </div>
-          <a href="${sessaoDistopia[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>`;
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoDistopia[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoDistopia[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoDistopia[i].tituloEng}</h1><h3>${sessaoDistopia[i].localDuracao}</h3><p lang="pt">${sessaoDistopia[i].sinopsePt}</p><p lang="en">${sessaoDistopia[i].sinopseEng}</p>
+      <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoDistopia[i].fichaTecnica}</ul></div> </div></div>
+      <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoDistopia[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -108,9 +94,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoPulsao1[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoPulsao1[i].tituloPt}</h1>
       <h1 lang="en">${sessaoPulsao1[i].tituloEng}</h1><h3>${sessaoPulsao1[i].localDuracao}</h3><p lang="pt">${sessaoPulsao1[i].sinopsePt}</p><p lang="en">${sessaoPulsao1[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoPulsao1[i].fichaTecnica}</ul></div> </div><a href="${sessaoPulsao1[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoPulsao1[i].fichaTecnica}</ul></div> </div></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoPulsao1[i].fichaTecnica}</ul></div></div><a href="${sessaoPulsao1[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoPulsao1[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -146,9 +132,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoPulsao2[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoPulsao2[i].tituloPt}</h1>
       <h1 lang="en">${sessaoPulsao2[i].tituloEng}</h1><h3>${sessaoPulsao2[i].localDuracao}</h3><p lang="pt">${sessaoPulsao2[i].sinopsePt}</p><p lang="en">${sessaoPulsao2[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoPulsao2[i].fichaTecnica}</ul></div> </div><a href="${sessaoPulsao2[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoPulsao2[i].fichaTecnica}</ul></div> </div></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoPulsao2[i].fichaTecnica}</ul></div></div><a href="${sessaoPulsao2[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoPulsao2[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -184,9 +170,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoImagem[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoImagem[i].tituloPt}</h1>
       <h1 lang="en">${sessaoImagem[i].tituloEng}</h1><h3>${sessaoImagem[i].localDuracao}</h3><p lang="pt">${sessaoImagem[i].sinopsePt}</p><p lang="en">${sessaoImagem[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoImagem[i].fichaTecnica}</ul></div> </div><a href="${sessaoImagem[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoImagem[i].fichaTecnica}</ul></div> </div></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoImagem[i].fichaTecnica}</ul></div></div><a href="${sessaoImagem[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoImagem[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -222,9 +208,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAquilombamento[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAquilombamento[i].tituloPt}</h1>
       <h1 lang="en">${sessaoAquilombamento[i].tituloEng}</h1><h3>${sessaoAquilombamento[i].localDuracao}</h3><p lang="pt">${sessaoAquilombamento[i].sinopsePt}</p><p lang="en">${sessaoAquilombamento[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAquilombamento[i].fichaTecnica}</ul></div> </div><a href="${sessaoAquilombamento[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoAquilombamento[i].fichaTecnica}</ul></div> </div></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAquilombamento[i].fichaTecnica}</ul></div></div><a href="${sessaoAquilombamento[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoAquilombamento[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -258,9 +244,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoKalunga[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoKalunga[i].tituloPt}</h1>
       <h1 lang="en">${sessaoKalunga[i].tituloEng}</h1><h3>${sessaoKalunga[i].localDuracao}</h3><p lang="pt">${sessaoKalunga[i].sinopsePt}</p><p lang="en">${sessaoKalunga[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoKalunga[i].fichaTecnica}</ul></div> </div><a href="${sessaoKalunga[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoKalunga[i].fichaTecnica}</ul></div> </div></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoKalunga[i].fichaTecnica}</ul></div></div><a href="${sessaoKalunga[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoKalunga[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -296,9 +282,9 @@ async function loadData() {
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAquilombamentoEnc[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAquilombamentoEnc[i].tituloPt}</h1>
       <h1 lang="en">${sessaoAquilombamentoEnc[i].tituloEng}</h1><h3>${sessaoAquilombamentoEnc[i].localDuracao}</h3><p lang="pt">${sessaoAquilombamentoEnc[i].sinopsePt}</p><p lang="en">${sessaoAquilombamentoEnc[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAquilombamentoEnc[i].fichaTecnica}</ul></div> </div><a href="${sessaoAquilombamentoEnc[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoAquilombamentoEnc[i].fichaTecnica}</ul></div></div></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAquilombamentoEnc[i].fichaTecnica}</ul></div></div><a href="${sessaoAquilombamentoEnc[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoAquilombamentoEnc[i].fichaTecnica}</ul></div></div></div></div>`;
       container.appendChild(postBox);
     }
   }

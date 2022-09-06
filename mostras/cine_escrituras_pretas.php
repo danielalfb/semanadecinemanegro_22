@@ -5,12 +5,12 @@ getHeaderMostras();
   <div class="page">
    <section>
       <div class="mainBanner" style="background-image: url('./img/banners/banner7.svg'); background-position: center; height: 200px">
-        <div class="mainInfo" style="text-align: right;margin-top: -50px;">
+        <div class="mainInfo" style="color:var(--cor-yellow);text-align: right;margin-top: -50px;">
           <div class="title">
             <h1 lang="pt">CINE-ESCRITURAS</h1>
-            <h1 lang="pt" style="color: var(--cor-yellow);margin-left: 30px">PRETAS</h1>
+            <h1 lang="pt" style="color: var(--cor-lightpink);margin-left: 30px">PRETAS</h1>
             <h1 lang="en">CINE-ESCRITURAS</h1>
-            <h1 lang="en" style="color: var(--cor-yellow);margin-left: 30px">PRETAS</h1>
+            <h1 lang="en" style="color: var(--cor-lightpink);margin-left: 30px">PRETAS</h1>
           </div>
          </div>
       </div>
