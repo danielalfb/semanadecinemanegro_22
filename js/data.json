@@ -213,7 +213,7 @@
       "homepage": "/mostras/nicho_54"
     }
   ],
-  "ibejis": [
+  "ibejis1": [
     {
       "tituloPt": "ERÊKAUÃ",
       "tituloEng": "ERÊKAUÃ",
@@ -265,7 +265,9 @@
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "/mostras/ibejis"
-    },
+    }
+  ],
+  "ibejis2": [
     {
       "tituloPt": "OS IBEJIS ENGANAM A MORTE",
       "tituloEng": "OS IBEJIS ENGANAM A MORTE",
