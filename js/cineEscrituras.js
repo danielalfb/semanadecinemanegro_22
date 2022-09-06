@@ -1,9 +1,12 @@
 var container = document.querySelector(".container");
 var src = "./img/filmes/";
-var sessaoEspecial = [];
-var sessaoVivencias = [];
-var sessaoAfetos = [];
-var sessaoGritos = [];
+var sessaoDistopia = [];
+var sessaoPulsao1 = [];
+var sessaoPulsao2 = [];
+var sessaoImagem = [];
+var sessaoAquilombamento = [];
+var sessaoKalunga = [];
+var sessaoAquilombamentoEnc = [];
 
 function fetchJson(url) {
   return fetch(url).then((ans) => {
@@ -13,10 +16,13 @@ function fetchJson(url) {
 
 async function loadData() {
   var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
-  sessaoEspecial = data.sessaoEspecial;
-  sessaoVivencias = data.sessaoVivencias;
-  sessaoAfetos = data.sessaoAfetos;
-  sessaoGritos = data.sessaoGritos;
+  sessaoDistopia = data.sessaoDistopia;
+  sessaoPulsao1 = data.sessaoPulsao1;
+  sessaoPulsao2 = data.sessaoPulsao2;
+  sessaoImagem = data.sessaoImagem;
+  sessaoAquilombamento = data.sessaoAquilombamento;
+  sessaoKalunga = data.sessaoKalunga;
+  sessaoAquilombamentoEnc = data.sessaoAquilombamentoEnc;
 
   function createDataSession1() {
     var sesTitlePT = document.createElement("a");
@@ -28,9 +34,9 @@ async function loadData() {
     sesTitlePT.setAttribute("lang", "pt");
     sesTitleEN.setAttribute("lang", "en");
     sesTitlePT.innerHTML =
-      'SESSÃO ESPECIAL</a> <em class="fas fa-chevron-down"></em>';
+      'DISTOPIA E HORROR NEGRO</a> <em class="fas fa-chevron-down"></em>';
     sesTitleEN.innerHTML =
-      'SPECIAL SESSION</a> <em class="fas fa-chevron-down"></em>';
+      'DISTOPIA E HORROR NEGRO</a> <em class="fas fa-chevron-down"></em>';
     descriptionPT.className = "descriptionSession";
     descriptionEN.className = "descriptionSession";
     descriptionPT.setAttribute("lang", "pt");
@@ -43,28 +49,28 @@ async function loadData() {
     container.appendChild(sesTitleEN);
     container.appendChild(descriptionPT);
     container.appendChild(descriptionEN);
-    for (let i = 0; i < sessaoEspecial.length; i++) {
+    for (let i = 0; i < sessaoDistopia.length; i++) {
       var postBox = document.createElement("div");
       postBox.className = "postBox1 hidden";
       postBox.innerHTML = `
-      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoEspecial[i].img}')"></div>
-      <div class="postInfo"><h1 lang="pt">${sessaoEspecial[i].tituloPt}</h1>
-        <h1 lang="en">${sessaoEspecial[i].tituloEng}</h1><h3>${sessaoEspecial[i].localDuracao}</h3>
-        <p lang="pt">${sessaoEspecial[i].sinopsePt}</p>
-        <p lang="en">${sessaoEspecial[i].sinopseEng}</p>
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoDistopia[i].img}')"></div>
+      <div class="postInfo"><h1 lang="pt">${sessaoDistopia[i].tituloPt}</h1>
+        <h1 lang="en">${sessaoDistopia[i].tituloEng}</h1><h3>${sessaoDistopia[i].localDuracao}</h3>
+        <p lang="pt">${sessaoDistopia[i].sinopsePt}</p>
+        <p lang="en">${sessaoDistopia[i].sinopseEng}</p>
         <div lang="pt" class="btn-filmes">
           <div class="info">
             <button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-            <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div>
+            <div class="content"><ul>${sessaoDistopia[i].fichaTecnica}</ul></div>
           </div>
-          <a href="${sessaoEspecial[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a>
+          <a href="${sessaoDistopia[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a>
         </div>
         <div lang="en" class="btn-filmes">
           <div class="info">
             <button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-            <div class="content"><ul>${sessaoEspecial[i].fichaTecnica}</ul></div>
+            <div class="content"><ul>${sessaoDistopia[i].fichaTecnica}</ul></div>
           </div>
-          <a href="${sessaoEspecial[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a>
+          <a href="${sessaoDistopia[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a>
         </div>
       </div>`;
       container.appendChild(postBox);
@@ -80,9 +86,9 @@ async function loadData() {
     sesTitlePT.setAttribute("lang", "pt");
     sesTitleEN.setAttribute("lang", "en");
     sesTitlePT.innerHTML =
-      'Vivências afro-diaspóricas</a> <em class="fas fa-chevron-down"></em>';
+      'PULSÃO DE VIDA (1) </a> <em class="fas fa-chevron-down"></em>';
     sesTitleEN.innerHTML =
-      'Afro-Diasporic Life Experiences</a> <em class="fas fa-chevron-down"></em>';
+      'PULSÃO DE VIDA (1)</a> <em class="fas fa-chevron-down"></em>';
     descriptionPT.className = "descriptionSession";
     descriptionEN.className = "descriptionSession";
     descriptionPT.setAttribute("lang", "pt");
@@ -95,16 +101,16 @@ async function loadData() {
     container.appendChild(sesTitleEN);
     container.appendChild(descriptionPT);
     container.appendChild(descriptionEN);
-    for (let i = 0; i < sessaoVivencias.length; i++) {
+    for (let i = 0; i < sessaoPulsao1.length; i++) {
       var postBox = document.createElement("div");
       postBox.className = "postBox hidden";
       postBox.innerHTML = `
-      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoVivencias[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoVivencias[i].tituloPt}</h1>
-      <h1 lang="en">${sessaoVivencias[i].tituloEng}</h1><h3>${sessaoVivencias[i].localDuracao}</h3><p lang="pt">${sessaoVivencias[i].sinopsePt}</p><p lang="en">${sessaoVivencias[i].sinopseEng}</p>
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoPulsao1[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoPulsao1[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoPulsao1[i].tituloEng}</h1><h3>${sessaoPulsao1[i].localDuracao}</h3><p lang="pt">${sessaoPulsao1[i].sinopsePt}</p><p lang="en">${sessaoPulsao1[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div> </div><a href="${sessaoVivencias[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoPulsao1[i].fichaTecnica}</ul></div> </div><a href="${sessaoPulsao1[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoVivencias[i].fichaTecnica}</ul></div></div><a href="${sessaoVivencias[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoPulsao1[i].fichaTecnica}</ul></div></div><a href="${sessaoPulsao1[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -118,9 +124,9 @@ async function loadData() {
     sesTitlePT.setAttribute("lang", "pt");
     sesTitleEN.setAttribute("lang", "en");
     sesTitlePT.innerHTML =
-      'Afetos e partilhas</a> <em class="fas fa-chevron-down"></em>';
+      'PULSÃO DE VIDA (2) </a> <em class="fas fa-chevron-down"></em>';
     sesTitleEN.innerHTML =
-      'Affections and Sharing</a> <em class="fas fa-chevron-down"></em>';
+      'PULSÃO DE VIDA (2) </a> <em class="fas fa-chevron-down"></em>';
     descriptionPT.className = "descriptionSession";
     descriptionEN.className = "descriptionSession";
     descriptionPT.setAttribute("lang", "pt");
@@ -133,16 +139,16 @@ async function loadData() {
     container.appendChild(sesTitleEN);
     container.appendChild(descriptionPT);
     container.appendChild(descriptionEN);
-    for (let i = 0; i < sessaoAfetos.length; i++) {
+    for (let i = 0; i < sessaoPulsao2.length; i++) {
       var postBox = document.createElement("div");
       postBox.className = "postBoxAfetos hidden";
       postBox.innerHTML = `
-      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAfetos[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAfetos[i].tituloPt}</h1>
-      <h1 lang="en">${sessaoAfetos[i].tituloEng}</h1><h3>${sessaoAfetos[i].localDuracao}</h3><p lang="pt">${sessaoAfetos[i].sinopsePt}</p><p lang="en">${sessaoAfetos[i].sinopseEng}</p>
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoPulsao2[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoPulsao2[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoPulsao2[i].tituloEng}</h1><h3>${sessaoPulsao2[i].localDuracao}</h3><p lang="pt">${sessaoPulsao2[i].sinopsePt}</p><p lang="en">${sessaoPulsao2[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div> </div><a href="${sessaoAfetos[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoPulsao2[i].fichaTecnica}</ul></div> </div><a href="${sessaoPulsao2[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoAfetos[i].fichaTecnica}</ul></div></div><a href="${sessaoAfetos[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoPulsao2[i].fichaTecnica}</ul></div></div><a href="${sessaoPulsao2[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -156,9 +162,9 @@ async function loadData() {
     sesTitlePT.setAttribute("lang", "pt");
     sesTitleEN.setAttribute("lang", "en");
     sesTitlePT.innerHTML =
-      'Gritos e fabulações de cura</a> <em class="fas fa-chevron-down"></em>';
+      'EU-IMAGEM</a> <em class="fas fa-chevron-down"></em>';
     sesTitleEN.innerHTML =
-      'Screams and Healing Fabulations</a> <em class="fas fa-chevron-down"></em>';
+      'EU-IMAGEM</a> <em class="fas fa-chevron-down"></em>';
     descriptionPT.className = "descriptionSession";
     descriptionEN.className = "descriptionSession";
     descriptionPT.setAttribute("lang", "pt");
@@ -171,16 +177,128 @@ async function loadData() {
     container.appendChild(sesTitleEN);
     container.appendChild(descriptionPT);
     container.appendChild(descriptionEN);
-    for (let i = 0; i < sessaoGritos.length; i++) {
+    for (let i = 0; i < sessaoImagem.length; i++) {
       var postBox = document.createElement("div");
       postBox.className = "postBox hidden";
       postBox.innerHTML = `
-      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoGritos[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoGritos[i].tituloPt}</h1>
-      <h1 lang="en">${sessaoGritos[i].tituloEng}</h1><h3>${sessaoGritos[i].localDuracao}</h3><p lang="pt">${sessaoGritos[i].sinopsePt}</p><p lang="en">${sessaoGritos[i].sinopseEng}</p>
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoImagem[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoImagem[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoImagem[i].tituloEng}</h1><h3>${sessaoImagem[i].localDuracao}</h3><p lang="pt">${sessaoImagem[i].sinopsePt}</p><p lang="en">${sessaoImagem[i].sinopseEng}</p>
       <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div> </div><a href="${sessaoGritos[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div class="content"><ul>${sessaoImagem[i].fichaTecnica}</ul></div> </div><a href="${sessaoImagem[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
       <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
-      <div class="content"><ul>${sessaoGritos[i].fichaTecnica}</ul></div></div><a href="${sessaoGritos[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      <div class="content"><ul>${sessaoImagem[i].fichaTecnica}</ul></div></div><a href="${sessaoImagem[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      container.appendChild(postBox);
+    }
+  }
+  function createDataSession5() {
+    var sesTitlePT = document.createElement("a");
+    var sesTitleEN = document.createElement("a");
+    var descriptionPT = document.createElement("p");
+    var descriptionEN = document.createElement("p");
+    sesTitlePT.className = "sessionTitle";
+    sesTitleEN.className = "sessionTitle";
+    sesTitlePT.setAttribute("lang", "pt");
+    sesTitleEN.setAttribute("lang", "en");
+    sesTitlePT.innerHTML =
+      'AQUILOMBAMENTOS</a> <em class="fas fa-chevron-down"></em>';
+    sesTitleEN.innerHTML =
+      'AQUILOMBAMENTOS</a> <em class="fas fa-chevron-down"></em>';
+    descriptionPT.className = "descriptionSession";
+    descriptionEN.className = "descriptionSession";
+    descriptionPT.setAttribute("lang", "pt");
+    descriptionEN.setAttribute("lang", "en");
+    descriptionPT.innerHTML =
+      "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
+    descriptionEN.innerHTML =
+      "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+    container.appendChild(sesTitlePT);
+    container.appendChild(sesTitleEN);
+    container.appendChild(descriptionPT);
+    container.appendChild(descriptionEN);
+    for (let i = 0; i < sessaoAquilombamento.length; i++) {
+      var postBox = document.createElement("div");
+      postBox.className = "postBox hidden";
+      postBox.innerHTML = `
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAquilombamento[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAquilombamento[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoAquilombamento[i].tituloEng}</h1><h3>${sessaoAquilombamento[i].localDuracao}</h3><p lang="pt">${sessaoAquilombamento[i].sinopsePt}</p><p lang="en">${sessaoAquilombamento[i].sinopseEng}</p>
+      <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoAquilombamento[i].fichaTecnica}</ul></div> </div><a href="${sessaoAquilombamento[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoAquilombamento[i].fichaTecnica}</ul></div></div><a href="${sessaoAquilombamento[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      container.appendChild(postBox);
+    }
+  }
+  function createDataSession6() {
+    var sesTitlePT = document.createElement("a");
+    var sesTitleEN = document.createElement("a");
+    var descriptionPT = document.createElement("p");
+    var descriptionEN = document.createElement("p");
+    sesTitlePT.className = "sessionTitle";
+    sesTitleEN.className = "sessionTitle";
+    sesTitlePT.setAttribute("lang", "pt");
+    sesTitleEN.setAttribute("lang", "en");
+    sesTitlePT.innerHTML = 'KALUNGA</a> <em class="fas fa-chevron-down"></em>';
+    sesTitleEN.innerHTML = 'KALUNGA</a> <em class="fas fa-chevron-down"></em>';
+    descriptionPT.className = "descriptionSession";
+    descriptionEN.className = "descriptionSession";
+    descriptionPT.setAttribute("lang", "pt");
+    descriptionEN.setAttribute("lang", "en");
+    descriptionPT.innerHTML =
+      "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
+    descriptionEN.innerHTML =
+      "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+    container.appendChild(sesTitlePT);
+    container.appendChild(sesTitleEN);
+    container.appendChild(descriptionPT);
+    container.appendChild(descriptionEN);
+    for (let i = 0; i < sessaoKalunga.length; i++) {
+      var postBox = document.createElement("div");
+      postBox.className = "postBox hidden";
+      postBox.innerHTML = `
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoKalunga[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoKalunga[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoKalunga[i].tituloEng}</h1><h3>${sessaoKalunga[i].localDuracao}</h3><p lang="pt">${sessaoKalunga[i].sinopsePt}</p><p lang="en">${sessaoKalunga[i].sinopseEng}</p>
+      <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoKalunga[i].fichaTecnica}</ul></div> </div><a href="${sessaoKalunga[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoKalunga[i].fichaTecnica}</ul></div></div><a href="${sessaoKalunga[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
+      container.appendChild(postBox);
+    }
+  }
+  function createDataSession7() {
+    var sesTitlePT = document.createElement("a");
+    var sesTitleEN = document.createElement("a");
+    var descriptionPT = document.createElement("p");
+    var descriptionEN = document.createElement("p");
+    sesTitlePT.className = "sessionTitle";
+    sesTitleEN.className = "sessionTitle";
+    sesTitlePT.setAttribute("lang", "pt");
+    sesTitleEN.setAttribute("lang", "en");
+    sesTitlePT.innerHTML =
+      'AQUILOMBAMENTOS - SESSÃO DE ENCERRAMENTO</a> <em class="fas fa-chevron-down"></em>';
+    sesTitleEN.innerHTML =
+      'AQUILOMBAMENTOS - SESSÃO DE ENCERRAMENTO</a> <em class="fas fa-chevron-down"></em>';
+    descriptionPT.className = "descriptionSession";
+    descriptionEN.className = "descriptionSession";
+    descriptionPT.setAttribute("lang", "pt");
+    descriptionEN.setAttribute("lang", "en");
+    descriptionPT.innerHTML =
+      "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
+    descriptionEN.innerHTML =
+      "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+    container.appendChild(sesTitlePT);
+    container.appendChild(sesTitleEN);
+    container.appendChild(descriptionPT);
+    container.appendChild(descriptionEN);
+    for (let i = 0; i < sessaoAquilombamentoEnc.length; i++) {
+      var postBox = document.createElement("div");
+      postBox.className = "postBox hidden";
+      postBox.innerHTML = `
+      <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAquilombamentoEnc[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAquilombamentoEnc[i].tituloPt}</h1>
+      <h1 lang="en">${sessaoAquilombamentoEnc[i].tituloEng}</h1><h3>${sessaoAquilombamentoEnc[i].localDuracao}</h3><p lang="pt">${sessaoAquilombamentoEnc[i].sinopsePt}</p><p lang="en">${sessaoAquilombamentoEnc[i].sinopseEng}</p>
+      <div lang="pt" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> MAIS INFORMAÇÕES <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoAquilombamentoEnc[i].fichaTecnica}</ul></div> </div><a href="${sessaoAquilombamentoEnc[i].link}" class="btn pt">Assista o filme <i class="fas fa-external-link-alt"></i></a></div>
+      <div lang="en" class="btn-filmes"><div class="info"><button type="button" class="collapsible"> ADDITIONAL INFORMATION <i class="fas fa-plus"></i></button>
+      <div class="content"><ul>${sessaoAquilombamentoEnc[i].fichaTecnica}</ul></div></div><a href="${sessaoAquilombamentoEnc[i].link}" class="btn en">Watch <i class="fas fa-external-link-alt"></i></a></div></div>`;
       container.appendChild(postBox);
     }
   }
@@ -188,6 +306,9 @@ async function loadData() {
   createDataSession2();
   createDataSession3();
   createDataSession4();
+  createDataSession5();
+  createDataSession6();
+  createDataSession7();
   sessionCollapsible();
   collapsible();
   translate();

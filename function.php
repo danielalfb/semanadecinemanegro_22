@@ -189,8 +189,8 @@ function getHeaderMostras() {
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
                   <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">Black Film-Writings</a></li>
+                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
                </div>
            </div>
            <div class="dropdown">

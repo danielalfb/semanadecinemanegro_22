@@ -4,11 +4,11 @@ getHeaderMostras();
 ?>
   <div class="page">
    <section>
-      <div class="mainBanner" style="background-image: url('./img/banners/banner15.svg'); height: 400px">
+      <div class="mainBanner" style="background-image: url('./img/banners/banner13.svg'); height: 400px">
         <div class="mainInfo" style="color: #fff">
           <div class="title">
-            <h1 lang="pt">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</h1>
-            <h1 lang="en">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</h1>
+            <h1 lang="pt">CINE-ESCRITURAS PRETAS</h1>
+            <h1 lang="en">CINE-ESCRITURAS PRETAS</h1>
           </div>
          </div>
       </div>

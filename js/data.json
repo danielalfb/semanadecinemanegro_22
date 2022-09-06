@@ -334,7 +334,7 @@
       "homepage": "/mostras/ibejis"
     }
   ],
-  "sessaoEspecial": [
+  "sessaoDistopia": [
     {
       "tituloPt": "ATÉ O FIM",
       "tituloEng": "ATÉ O FIM",
@@ -347,7 +347,7 @@
       "homepage": "/mostras/ibejis"
     }
   ],
-  "sessaoVivencias": [
+  "sessaoPulsao1": [
     {
       "tituloPt": "A MORTE BRANCA DO FEITICEIRO NEGRO",
       "tituloEng": "THE WHITE DEATH OF THE BLACK WIZARD",
@@ -469,7 +469,7 @@
       "homepage": "/mostras/ibejis"
     }
   ],
-  "sessaoAfetos": [
+  "sessaoPulsao2": [
     {
       "tituloPt": "À BEIRA DO PLANETA MAINHA SOPROU A GENTE",
       "tituloEng": "TO THE PLANET’S EDGE MAMA’S BREATH SENT US",
@@ -615,7 +615,7 @@
       "homepage": "/mostras/ibejis"
     }
   ],
-  "sessaoGritos": [
+  "sessaoImagem": [
     {
       "tituloPt": "23 MINUTOS",
       "tituloEng": "23 MINUTES",
@@ -731,6 +731,45 @@
       "fichaTecnica": "<li>direção director  Diogo Leite</li><li>roteiro script  Diogo Leite</li><li>produção production  Andrea Lanzoni, Giselle Bossi, Thais Morresi, Janaina Delfino</li><li>fotografia cinematography  Jéssika Montanha, DAFB, Flora Correa, Jaque Santos</li><li>montagem editing Ana Júlia Travia</li><li>arte e figurino art and costume design  Henrique Pinto</li><li>som sound  Olívia Fiusa</li><li>elenco principal main cast Daniel Veiga, Carol Oliveira, Jean-Claude Bernardet, Giovanni Gallo, Gilda Nomacce, Larissa Ballarotti</li><li>contato contact diogoleite@hotmail.com</li><li>Classificação Indicativa 12 anos</li>",
       "sinopsePt": "Luan trabalha como bikeboy de aplicativo e enfrenta dilemas e preconceitos na sua jornada diária de entregas em uma cidade grande. Sem hesitar, sonha com um futuro melhor.",
       "sinopseEng": "Luan works delivering food on a bicycle while having to face dilemmas and discrimination on his journey in a big city. Without hesitating he dreams of a better future.",
+      "img": "default.jpg",
+      "imgDir": "maybe",
+      "link": "/error_404",
+      "homepage": "/mostras/ibejis"
+    }
+  ],
+  "sessaoAquilombamento": [
+    {
+      "tituloPt": "ATÉ O FIM",
+      "tituloEng": "ATÉ O FIM",
+      "localDuracao": "BAHIA, 2020, 93’",
+      "sinopsePt": "Geralda está trabalhando em seu quiosque à beira de uma praia no Recôncavo da  Bahia, ela recebe um telefonema do hospital dizendo que seu pai pode morrer a qualquer momento.  Ela avisa suas irmãs Rose, Bel e Vilmar. O encontro promovido pela espera da morte se torna um  momento de desabafo e reconhecimentos das quatro irmãs que não se reúnem desde a morte da  mãe, há 15 anos.",
+      "sinopseEng": "Geralda is working at her stand by the beach in Reconcavo da Bahia; she receives a call from the hospital saying that her father might die at any moment. She gives the news to her sisters: Rose, Bel, and Vilmar. The reunion caused by the wait for death becomes a moment for getting things off their chests and acknowledgements for the four sisters who are meeting for the first time since the death of their mother, 15 years ago. ",
+      "img": "default.jpg",
+      "imgDir": "maybe",
+      "link": "/error_404",
+      "homepage": "/mostras/ibejis"
+    }
+  ],
+  "sessaoKalunga": [
+    {
+      "tituloPt": "ATÉ O FIM",
+      "tituloEng": "ATÉ O FIM",
+      "localDuracao": "BAHIA, 2020, 93’",
+      "sinopsePt": "Geralda está trabalhando em seu quiosque à beira de uma praia no Recôncavo da  Bahia, ela recebe um telefonema do hospital dizendo que seu pai pode morrer a qualquer momento.  Ela avisa suas irmãs Rose, Bel e Vilmar. O encontro promovido pela espera da morte se torna um  momento de desabafo e reconhecimentos das quatro irmãs que não se reúnem desde a morte da  mãe, há 15 anos.",
+      "sinopseEng": "Geralda is working at her stand by the beach in Reconcavo da Bahia; she receives a call from the hospital saying that her father might die at any moment. She gives the news to her sisters: Rose, Bel, and Vilmar. The reunion caused by the wait for death becomes a moment for getting things off their chests and acknowledgements for the four sisters who are meeting for the first time since the death of their mother, 15 years ago. ",
+      "img": "default.jpg",
+      "imgDir": "maybe",
+      "link": "/error_404",
+      "homepage": "/mostras/ibejis"
+    }
+  ],
+  "sessaoAquilombamentoEnc": [
+    {
+      "tituloPt": "ATÉ O FIM",
+      "tituloEng": "ATÉ O FIM",
+      "localDuracao": "BAHIA, 2020, 93’",
+      "sinopsePt": "Geralda está trabalhando em seu quiosque à beira de uma praia no Recôncavo da  Bahia, ela recebe um telefonema do hospital dizendo que seu pai pode morrer a qualquer momento.  Ela avisa suas irmãs Rose, Bel e Vilmar. O encontro promovido pela espera da morte se torna um  momento de desabafo e reconhecimentos das quatro irmãs que não se reúnem desde a morte da  mãe, há 15 anos.",
+      "sinopseEng": "Geralda is working at her stand by the beach in Reconcavo da Bahia; she receives a call from the hospital saying that her father might die at any moment. She gives the news to her sisters: Rose, Bel, and Vilmar. The reunion caused by the wait for death becomes a moment for getting things off their chests and acknowledgements for the four sisters who are meeting for the first time since the death of their mother, 15 years ago. ",
       "img": "default.jpg",
       "imgDir": "maybe",
       "link": "/error_404",
