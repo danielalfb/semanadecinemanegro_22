@@ -302,6 +302,7 @@ p {
 .mainInfo > .title h1 {
   text-transform: uppercase;
   font-size: 3.5rem;
+  line-height: 3.5rem;
 }
 .mainInfo > .creditos {
   padding-bottom: 0;
