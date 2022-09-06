@@ -19,7 +19,7 @@
       "fichaTecnica": "<li>direção director Gabriel Martins </li> <li>roteiro script Gabriel Martins </li> <li>produção production André Novais Oliveira, Gabriel Martins, Maurilio Martins, Thiago Macêdo Correia</li> <li>fotografia cinematography Leonardo Feliciano </li> <li>montagem editing Gabriel Martins, Thiago Ricarte </li> <li>arte e figurino art and costume design Marina Sandim </li> <li>som sound Tiago Bello, Marcos Lopes </li> <li>trilha sonora soundtrack Daniel Simitan </li> <li>elenco principal main cast Rejane Faria, Carlos Francisco, Camilla Damião, Cícero Lucas, Ana Hilário, Russo APR, Dircinha Macedo, Tokinho, Juan Pablo Sorrin</li> <li>empresa produtora production company Filmes de Plástico </li> <li>contato contact contato@filmesdeplastico.com.br </li> <li>Classificação Indicativa 16 anos</li>",
       "sinopsePt": "O dia a dia de uma família negra de classe média baixa na periferia de uma grande capital. Entre trabalhos, utopias, amores e traumas, os Martins tentam seguir vivendo num Brasil em mudanças.",
       "sinopseEng": "",
-      "img": "HOMENAGEM_MARTE UM.jpeg",
+      "img": "HOMENAGEM_MARTE_UM.jpeg",
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "mostras/no_palco_nas_telas"
@@ -66,8 +66,8 @@
       "homepage": "/mostras/cinemas_africanos"
     },
     {
-      "tituloPt": "INSAN/ HUMAN",
-      "tituloEng": "INSAN/ HUMAN",
+      "tituloPt": "INSAN (HUMAN BEING)",
+      "tituloEng": "INSAN (HUMAN BEING)",
       "localDuracao": "SUDÃO, 1994, 27’",
       "localDuracaoEng": "SUDÃO, 1994, 27’",
       "fichaTecnica": "<li>direção director Ibrahim Shaddad </li> <li>contato contact  sfg1989@gmail.com </li> <li>Classificação Indicativa 14 anos </li>",
@@ -112,7 +112,7 @@
       "fichaTecnica": "<li>direção director Khadar Ayderus Ahmed </li> <li>fotografia cinematography Arttu Peltomaa </li> <li>montagem editing Thümler, Bundesverband Filmschnitt Editor </li> <li>elenco principal main cast Omar Abdi, Yasmin Warsame, Kadar Abdoul-Aziz Ibrahim </li> <li>Classificação Indicativa 14 anos </li>",
       "sinopsePt": "Guled e Nasra são um casal apaixonado, e moram na periferia da cidade de Djibouti com seu filho adolescente, Mahad. Entretanto, eles enfrentam tempos difíceis: Nasra precisa urgentemente de uma cirurgia cara para tratar uma doença renal crônica. Guled já está trabalhando duro como coveiro para pagar as contas: como eles conseguirão encontrar o dinheiro para salvar Nasra e manter a família unida?",
       "sinopseEng": "Guled and Nasra are a loving couple, living in the outskirts of Djibouti city with their teenage son, Mahad. However, they are facing difficult times: Nasra urgently needs an expensive surgery to treat a chronic kidney disease. Guled is already working hard as a gravedigger to make ends meet: how can they find the money to save Nasra and keep the family together?",
-      "img": "POCA_THE GRAVEDIGGERS WIFE.jpeg",
+      "img": "POCA_THE GRAVEDIGGERS_WIFE.jpeg",
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "/mostras/cinemas_africanos"
@@ -125,7 +125,7 @@
       "fichaTecnica": "<li>direção director Mo Harawe </li> <li>roteiro script Mo Harawe </li> <li>fotografia cinematography Mo Harawe </li> <li>montagem editing Alexander von Piechowski </li> <li>elenco principal main cast Xuseen Abdirisaaq, Cabdiraxmaan Maxamed, Maxamed Maxamuud Jamac, Mohamed Hersi, Faadumo Abshir, Maxamed Axmed Maxamed </li> <li>contato contact office@sixpackfilm.com </li> <li>Classificação Indicativa 14 anos </li>",
       "sinopsePt": "Dois homens sentados em suas camas, meio sonolentos. Entrando por uma rachadura na porta, o vento sopra pela moradia precária. Depois de um tempo, o homem jovem entrega ao mais velho um comprimido, dizendo que é o último. São em sucintas e vívidas cenas como essa, capturadas em um preto e branco encantador, que a história de uma catástrofe cotidiana que acontece na costa da Somália se descortina. Enquanto o filho toma conta de seu pai moribundo, a área rural dos arredores vai se esvaziando. Vizinhos estão no processo de mudança enquanto o homem jovem entrega uma carga de areia para uma construção há muito tempo abandonada. Somente seu proprietário permanece, se apoiando em uma corrente de orações, seu último alicerce. (Trecho de Nikolaus Perneczky)",
       "sinopseEng": "Two men squat on their beds, still half asleep. Entering by way of a crack in the door, the wind blows through their meagre dwelling. After a while, the young man hands the older one a pill, adding it is the last. It is in tersely concise tableaus such as this, captured in enchanting black and white, that the story unfolds of an everyday catastrophe taking place on the Somali coast. While the son takes care of his dying father, the surrounding countryside grows empty. Neighbors are in the process of moving out as the young man delivers a load of sand to a long since abandoned construction site. Only its owner remains, hanging on to a prayer chain, his last mainstay. (Excerpt by Nikolaus Perneczky; translation Eve Heller)",
-      "img": "POCA_LIFE ON THE HORN.jpeg",
+      "img": "POCA_LIFE_ON_THE_HORN.jpeg",
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "/mostras/cinemas_africanos"
@@ -138,7 +138,7 @@
       "fichaTecnica": "<li>direção director Suhaib Gasmelbari </li> <li>fotografia cinematography Suhaib Gasmelbari </li> <li>empresa produtora production company Basma Films </li> <li>contato contact sammak@aljazeera.net </li> <li>Classificação Indicativa 10 anos </li>",
       "sinopsePt": "Benjamin e Awad coordenam o arquivo nacional de filmes do Sudão. Os dois homens, que trabalham juntos há mais de 40 anos, se dedicam a proteger as memórias visuais de seu país. Lar de cerca de 13.000 filmes, o arquivo preserva momentos cruciais da turbulenta história do Sudão e é um dos maiores da África. Mas o arquivo está em um frágil estado de conservação. Após anos de negligência e armazenamento inadequado, muitos rolos de filmes estão se transformando em pó no clima tropical inclemente do Sudão. Os dois amigos estão determinados a reverter isso e embarcam em uma missão para salvar os filmes antigos. Será que eles conseguirão preservar a história visual do Sudão para as gerações futuras antes que seja tarde demais?",
       "sinopseEng": "Benjamin and Awad run Sudan's national film archive. The two men, who have worked together for more than 40 years, are devoted to protecting their country's visual memories. Home to some 13,000 films, the archive preserves pivotal moments of Sudan's turbulent history and is one of the largest in Africa. But the archive is in a fragile state. Following years of neglect and poor storage, many film reels are turning to dust in Sudan's unforgiving tropical climate. The two friends are determined to turn it around and embark on a mission to save the old films. Will they succeed in preserving Sudan's visual history for future generations before it's too late?",
-      "img": "POCA_SUDANS FORGOTTEN FILMS.jpeg",
+      "img": "POCA_SUDANS_FORGOTTEN_FILMS.jpeg",
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "/mostras/cinemas_africanos"
@@ -151,7 +151,7 @@
       "fichaTecnica": "<li>direção director Suhaib Gasmelbari </li> <li>roteiro script Suhaib Gasmelbari </li> <li>produção production Marie Balducchi </li> <li>fotografia cinematography Suhaib Gasmelbari </li> <li>montagem editing Nelly Quettier, Gladys Joujou </li> <li>elenco principal main cast Ibrahim Shaddad, Suliman Ibrahim, Eltayeb Mahdi, Manar Al-Hilo, Hana Abdelrahman Suliman (Sudanese Film Group, SFG) </li> <li>empresa produtora production company Agat films & cie, Goï goï productions </li> <li>Classificação Indicativa Livre </li>",
       "sinopsePt": "Brahim, Suleiman, Manar e Eltayeb são amigos há mais de 45 anos. Eles deixaram sua terra natal nas décadas de 60 e 70 para estudar cinema e passaram muitos anos no exílio. Em 1989, eles retornam e organizam juntos o Grupo de Cinema Sudanês, na esperança de reavivar o  hábito de ir ao cinema no Sudão.",
       "sinopseEng": "Brahim, Suleiman, Manar and Eltayeb have been friends for over 45 years. They left their homeland in the 1960s and 1970s to study film and have spent many years in exile. In 1989, they return and set up the Sudanese Film Group together in the hope of reviving cinema-going in Sudan.",
-      "img": "POCA_TALKING ABOUT TREES.jpeg",
+      "img": "POCA_TALKING_ABOUT_TREES.jpeg",
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "/mostras/cinemas_africanos"
@@ -179,7 +179,7 @@
       "fichaTecnica": "<li>direção director Med Hondo </li> <li>produção production Christine Gozlan </li> <li>fotografia cinematography François Catonné </li> <li>montagem editing Youcef Tobni </li> <li>arte e figurino art and costume design Jacques Saulnier </li> <li>som sound Antoine Bonfanti </li> <li>trilha sonora soundtrack Georges Rabol et Frank Valmont </li> <li>elenco principal main cast Robert Liensol, Hélène Vincent, Philippe Clévenot, Cyril Aventurin, Fernand Berset, Roland Bertin, Gérald Boncourt, Toto Bissainthe, Monique Couturier, Jean Paul Denizon, Gabriel Glissant, Elsie Haas, Georges HIlarion, Théo Légitimus, Blanche Lolia, Maithe Mansoura, Josy Mass, Véronique Mucret, Elliot Roy, Louison Roblin, Mario Santini, Tara Schaff, Jean Pierre Sentier, Kassimo Sterling, Bernard Valdeneige, Hélène Vincent, André Waber, Louis Xavier </li> <li>empresa produtora production company Les Film Soleil Ô </li> <li>co-produção co-production O.N.C.M. (Office National de Cinema Mauritanien) - R.T.A. (Radio Télévision Algérienne), I.P.C. (Société Interafricaine de Production Cinématographique), Yanek Films </li> <li>contato contact@cinearchives.org </li> <li>Classificação Indicativa 14 anos </li>",
       "sinopsePt": "West Indies são as Antilhas, primeiro as espanholas, depois as inglesas, francesas e holandesas, antes que Cuba e Haiti, entre outros, ganhassem sua independência. O filme pode ser apresentado como um musical político. Encenada em uma sucessão de quadros, com uma estética teatral vigorosa, e usando a linguagem crioula como elemento essencial, é a história do povo das Antilhas que é contada, desde o século XVII até os dias de hoje: a ação acontece em um navio negreiro e é contada através de canções e balés, evocando tanto o passado, quanto o presente, esse outro ”comércio” que trouxe milhares de homens e mulheres que se tornaram imigrantes na Europa, a fim de escapar da miséria. West Indies é uma sátira contra a colonização francesa nas Antilhas e na África, um tema caro a Med Hondo. Filmado nas fábricas de Citroën em desuso no Quai de Javel em Paris, um poderoso símbolo da exploração da mão-de-obra da classe trabalhadora durante várias gerações, o filme revela um dispositivo cênico óbvio. Uma distância é estabelecida, dando força ao propósito do filme, lembrando a teoria de Brecht, que é cara ao cineasta. A obra foi apresentada em muitos festivais, mas foi impedida de competir  em alguns eventos por conteúdo ”subversivo”. O filme foi exibido na abertura do Festival de Veneza e no Festival de Montreal em 1979.",
       "sinopseEng": "I was seven years old when someone called me “black” on a street. I turned around to see who they were calling, then I understood it was me. It was at this very day that I found out I was black and the laughs resulting from  such calling made me realize that being black wasn’t something good. Was it only me who had gone through that or were there other stories like mine? Negra is a documentary that narrates the director’s investigation on her quest for other afro-descendent women, as well as the Mexican social imaginary about what inhabits the black woman’s body. By connecting stories of five women from the Southeast of the country, Negra exposes racism, but it also shares the processes of resistance and self-acceptance, the strategies built to overcome stereotypes and the celebration of their identities.",
-      "img": "MH_WEST INDIES.jpeg",
+      "img": "MH_WEST_INDIES.jpeg",
       "imgDir": "maybe",
       "link": "/error_404",
       "homepage": "/mostras/cinemas_africanos"
