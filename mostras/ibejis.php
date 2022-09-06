@@ -4,11 +4,11 @@ getHeaderMostras();
 ?>
     <div class="page">
     <section>
-      <div class="mainBanner" style="background-image: url('./img/banners/banner2.svg'); height: 400px">
-        <div class="mainInfo" style="color: #fff">
+      <div class="mainBanner" style="background-image: url('./img/banners/banner9.svg'); height: 300px">
+        <div class="mainInfo" style="margin-top:-80px">
           <div class="title">
-            <h1 lang="pt">IBEJIS (INFANTIL)</h1>
-            <h1 lang="en">IBEJIS (INFANTIL)</h1>
+            <h1 lang="pt"><span style="color: var(--cor-yellow);">IBEJIS</span> (INFANTIL)</h1>
+            <h1 lang="en"><span style="color: var(--cor-yellow);">IBEJIS</span> (INFANTIL)</h1>
           </div>
          </div>
       </div>

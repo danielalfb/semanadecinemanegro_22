@@ -4,13 +4,13 @@ getHeaderMostras();
 ?>
 <div class="page">
   <section>
-      <div class="mainBanner" style="background-image: url('./img/banners/banner9.svg'); height: 350px">
-        <div class="mainInfo" style="color: #fff">
-          <div class="title" style="    margin-top: -120px;">
-            <h1 lang="pt">MARIA JOSÉ NOVAIS OLIVEIRA: </h1>
+      <div class="mainBanner" style="background-image: url('./img/banners/banner3.svg'); height: 350px">
+        <div class="mainInfo" style="color: var(--cor-lightpink);">
+          <div class="title" style="margin-top: -120px;">
+            <h1 lang="pt" style="color: var(--cor-yellow);">MARIA JOSÉ NOVAIS OLIVEIRA: </h1>
             <h1 lang="pt">REJANE FARIA – </h1>
             <h1 lang="pt">NO PALCO E NAS TELAS</h1>
-            <h1 lang="en">MARIA JOSÉ NOVAIS OLIVEIRA: </h1>
+            <h1 lang="en" style="color: var(--cor-yellow);">MARIA JOSÉ NOVAIS OLIVEIRA: </h1>
             <h1 lang="en">REJANE FARIA – </h1>
             <h1 lang="en">NO PALCO E NAS TELAS</h1>
           </div>

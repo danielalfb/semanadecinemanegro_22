@@ -297,6 +297,7 @@ p {
 .mainInfo {
   width: 100%;
   max-width: 100%;
+  color: var(--cor-lightpink);
   padding: var(--lmargin-padrao);
 }
 .mainInfo > .title h1 {
