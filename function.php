@@ -228,7 +228,6 @@ function getFooterOpen() { ?>
 <footer class="footer-distributed">
 
 <div class="footer-left">
-  <a href="/inicio"><img src="./img/logo_branca.svg" class="logo" alt="Logo Footer"/></a>
   <div>
           <ul>
           <li lang="pt"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
@@ -239,6 +238,8 @@ function getFooterOpen() { ?>
                   <li lang="en"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
                   <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
                   <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="pt"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
                   <li lang="pt"><a href="/mostras/ibejis">Cine-Escrituras Pretas</a></li>
                   <li lang="en"><a href="/mostras/ibejis">Black Film-Writings</a></li>
         </ul>
@@ -247,6 +248,8 @@ function getFooterOpen() { ?>
 
 <div class="footer-center">
       <ul>
+            <li lang="pt"><a href="/masterclass.php">masterclass</a></li>
+            <li lang="en"><a href="/masterclass.php">masterclass</a></li>
             <li lang="pt"><a href="/oficinas">Oficinas</a></li>
             <li lang="en"><a href="/oficinas">Workshops</a></li>
             <li lang="pt"><a href="/debates"> Conversas e Debates</a></li>
