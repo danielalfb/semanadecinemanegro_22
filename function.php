@@ -93,8 +93,8 @@ function getHeader() {
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/debates.php">Talks and Q&A's</a></li>                  
                </div>
            </div>
-            <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li>
+            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li> -->
+            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li> -->
             <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Credits</a></li>
            
@@ -205,8 +205,8 @@ function getHeaderMostras() {
                   <li lang="en"><a href="http://localhost/semanadecinemanegro_22/debates.php">Talks and Q&A's</a></li>                  
                </div>
            </div>
-            <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li>
+            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li> -->
+            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li> -->
             <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Credits</a></li>
            
@@ -256,8 +256,8 @@ function getFooterOpen() { ?>
             <li lang="en"><a href="/debates"> Talks and Q&A's</a></li>
             <li lang="pt"><a href="/programacao">Programação</a></li>
             <li lang="en"><a href="/programacao">Program</a></li>
-            <li lang="pt"><a href="/catalogo">Catálogo</a></li>
-            <li lang="en"><a href="/catalogo">Catalog</a></li>
+            <!-- <li lang="pt"><a href="/catalogo">Catálogo</a></li> -->
+            <!-- <li lang="en"><a href="/catalogo">Catalog</a></li> -->
             <li lang="pt"><a href="/creditos">Créditos</a></li>
             <li lang="en"><a href="/creditos">Credits</a></li>
           </ul>
