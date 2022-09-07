@@ -59,44 +59,44 @@ function getHeader() {
         </div> 
         <div class="menu__links">
           <ul id="nav-list">
-            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/index.php">Início</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/index.php">Home</a></li>
-            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/programacao.php">Programação</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/programacao.php">Program</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="./index.php">Início</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="./index.php">Home</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Program</a></li>
            <div class="dropdown">
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
+                  <li lang="pt"><a href="./mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="en"><a href="./mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="pt"><a href="./mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="en"><a href="./mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="pt"><a href="./mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="en"><a href="./mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="pt"><a href="./mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="en"><a href="./mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="pt"><a href="./mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="./mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="pt"><a href="./mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="./mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
                </div>
            </div>
            <div class="dropdown">
                <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Oficinas</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Workshops</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/debates.php">Conversas e Debates</a></li>                  
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/debates.php">Talks and Q&A's</a></li>                  
+                  <li lang="pt"><a href="./masterclass.php">masterclass</a></li>
+                  <li lang="en"><a href="./masterclass.php">masterclass</a></li>
+                  <li lang="pt"><a href="./oficinas.php">Oficinas</a></li>
+                  <li lang="en"><a href="./oficinas.php">Workshops</a></li>
+                  <li lang="pt"><a href="./debates.php">Conversas e Debates</a></li>                  
+                  <li lang="en"><a href="./debates.php">Talks and Q&A's</a></li>                  
                </div>
            </div>
-            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li> -->
-            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li> -->
-            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Credits</a></li>
+            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li> -->
+            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catalog</a></li> -->
+            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
            
          </ul>
         </div>
@@ -171,44 +171,44 @@ function getHeaderMostras() {
         </div> 
         <div class="menu__links">
           <ul id="nav-list">
-            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/index.php">Início</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/index.php">Home</a></li>
-            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/programacao.php">Programação</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/programacao.php">Program</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="./index.php">Início</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="./index.php">Home</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Programação</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>" href="./programacao.php">Program</a></li>
            <div class="dropdown">
                <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
+                  <li lang="pt"><a href="./mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="en"><a href="./mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA: REJANE FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="pt"><a href="./mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="en"><a href="./mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a></li>
+                  <li lang="pt"><a href="./mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="en"><a href="./mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a></li>
+                  <li lang="pt"><a href="./mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="en"><a href="./mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
+                  <li lang="pt"><a href="./mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="./mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
+                  <li lang="pt"><a href="./mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="./mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
                </div>
            </div>
            <div class="dropdown">
                <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                <div class="dropdown-content">
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/masterclass.php">masterclass</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Oficinas</a></li>
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/oficinas.php">Workshops</a></li>
-                  <li lang="pt"><a href="http://localhost/semanadecinemanegro_22/debates.php">Conversas e Debates</a></li>                  
-                  <li lang="en"><a href="http://localhost/semanadecinemanegro_22/debates.php">Talks and Q&A's</a></li>                  
+                  <li lang="pt"><a href="./masterclass.php">masterclass</a></li>
+                  <li lang="en"><a href="./masterclass.php">masterclass</a></li>
+                  <li lang="pt"><a href="./oficinas.php">Oficinas</a></li>
+                  <li lang="en"><a href="./oficinas.php">Workshops</a></li>
+                  <li lang="pt"><a href="./debates.php">Conversas e Debates</a></li>                  
+                  <li lang="en"><a href="./debates.php">Talks and Q&A's</a></li>                  
                </div>
            </div>
-            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catálogo</a></li> -->
-            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/catalogo.php">Catalog</a></li> -->
-            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="http://localhost/semanadecinemanegro_22/creditos.php">Credits</a></li>
+            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catálogo</a></li> -->
+            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catalog</a></li> -->
+            <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
            
          </ul>
         </div>
