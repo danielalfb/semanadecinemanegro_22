@@ -97,6 +97,8 @@ function getHeader() {
             <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catalog</a></li> -->
             <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
+            <li lang="pt"><a  class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>" href="./temp_page/primeira_edicao.html">Edição anterior</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>" href="./temp_page/primeira_edicao.html">Previous edition</a></li>
            
          </ul>
         </div>
@@ -209,6 +211,8 @@ function getHeaderMostras() {
             <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="./catalogo.php">Catalog</a></li> -->
             <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="./creditos.php">Credits</a></li>
+            <li lang="pt"><a  class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>" href="./temp_page/primeira_edicao.html">Edição anterior</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>" href="./temp_page/primeira_edicao.html">Previous edition</a></li>
            
          </ul>
         </div>
@@ -240,8 +244,8 @@ function getFooterOpen() { ?>
                   <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO 54</a></li>
                   <li lang="pt"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
                   <li lang="en"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="pt"><a href="/mostras/ibejis">Cine-Escrituras Pretas</a></li>
-                  <li lang="en"><a href="/mostras/ibejis">Black Film-Writings</a></li>
+                  <li lang="pt"><a href="/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
+                  <li lang="en"><a href="/mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
         </ul>
     </div>
 </div>
@@ -260,6 +264,8 @@ function getFooterOpen() { ?>
             <!-- <li lang="en"><a href="/catalogo">Catalog</a></li> -->
             <li lang="pt"><a href="/creditos">Créditos</a></li>
             <li lang="en"><a href="/creditos">Credits</a></li>
+            <li lang="pt"><a href="./edicao_anterior">Edição anterior</a></li>
+            <li lang="en"><a href="./edicao_anterior">Previous edition</a></li>
           </ul>
 </div>
 <div class="footer-right">
