@@ -23,5 +23,6 @@ getFooterOpen();
 <script src="js/search.js"></script>
 <script src="js/masterclass.js"></script>
 <script src="js/main.js"></script>
+<script>translate();</script>
   </body>
 </html>
