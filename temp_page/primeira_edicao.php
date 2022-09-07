@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '../../function.php';
+getHeaderMostras();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
