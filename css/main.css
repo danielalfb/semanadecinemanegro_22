@@ -652,8 +652,8 @@ div.minInfo {
 /* bloco: debates */
 div.debateContainer {
     max-width: 100%;
-    flex-direction: column;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: var(--padding-padrao);
 }
