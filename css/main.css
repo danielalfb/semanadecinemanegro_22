@@ -780,10 +780,10 @@ div.debateInfo {
     text-align: center;
 }
 .program-cover {
-    background-image: url(../img/default.jpg);
+    background-image: url(../img/programacao.png);
 }
 .catalog-cover {
-    background-image: url(../img/default.jpg);
+    background-image: url(../img/catalogo.png);
 }
 
 /*bloco: creditos*/
