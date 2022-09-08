@@ -394,7 +394,12 @@ a.btn:hover {
 }
 
 a.sessionTitle,
+a.sessionTitle2,
+a.sessionTitle3,
 a.sessionTitleAfetos,
+a.sessionTitleDistopia,
+a.sessionTitleIbejis1,
+a.sessionTitleIbejis2,
 a.sessionTitle1 {
     display: flex;
     width: 91%;
@@ -404,7 +409,12 @@ a.sessionTitle1 {
     margin-bottom: 40px;
 }
 .sessionTitle,
+.sessionTitle2,
+.sessionTitle3,
 .sessionTitleAfetos,
+.sessionTitleDistopia,
+.sessionTitleIbejis1,
+.sessionTitleIbejis2,
 .sessionTitle1 {
     display: flex;
     justify-content: start;
@@ -424,7 +434,12 @@ h3.postSubTitle {
 
 div.postBox,
 div.postBoxAfetos,
+div.postBoxDistopia,
+div.postBoxIbejis1,
+div.postBoxIbejis2,
 div.postBox1,
+div.postBox2,
+div.postBox3,
 div.postBoxSession {
     display: flex;
     align-items: center;
@@ -509,7 +524,12 @@ div.containerResults a {
 /* bloco: filmes */
 .postBox > div.filmeImg,
 .postBoxAfetos > div.filmeImg,
+.postBoxIbejis1 > div.filmeImg,
+.postBoxIbejis2 > div.filmeImg,
 .postBox1 > div.filmeImg,
+.postBox2 > div.filmeImg,
+.postBox3 > div.filmeImg,
+.postBoxDistopia > div.filmeImg,
 .postBoxSession > div.filmeImg {
     width: 600px;
     align-self: stretch;

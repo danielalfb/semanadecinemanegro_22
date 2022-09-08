@@ -18,8 +18,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitleIbejis1";
+        sesTitleEN.className = "sessionTitleIbejis1";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -38,7 +38,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < ibejis1.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBoxIbejis1 hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${ibejis1[i].img}')"></div><div class="postInfo"><h1 lang="pt">${ibejis1[i].tituloPt}</h1>
       <h1 lang="en">${ibejis1[i].tituloEng}</h1><h3>${ibejis1[i].localDuracao}</h3><p lang="pt">${ibejis1[i].sinopsePt}</p><p lang="en">${ibejis1[i].sinopseEng}</p>
@@ -54,8 +54,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitleIbejis2";
+        sesTitleEN.className = "sessionTitleIbejis2";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -74,7 +74,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < ibejis2.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBoxIbejis2 hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${ibejis2[i].img}')"></div><div class="postInfo"><h1 lang="pt">${ibejis2[i].tituloPt}</h1>
       <h1 lang="en">${ibejis2[i].tituloEng}</h1><h3>${ibejis2[i].localDuracao}</h3><p lang="pt">${ibejis2[i].sinopsePt}</p><p lang="en">${ibejis2[i].sinopseEng}</p>

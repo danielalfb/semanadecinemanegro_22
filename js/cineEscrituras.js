@@ -29,8 +29,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitleDistopia";
+        sesTitleEN.className = "sessionTitleDistopia";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -49,7 +49,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < sessaoDistopia.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBoxDistopia hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoDistopia[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoDistopia[i].tituloPt}</h1>
       <h1 lang="en">${sessaoDistopia[i].tituloEng}</h1><h3>${sessaoDistopia[i].localDuracao}</h3><p lang="pt">${sessaoDistopia[i].sinopsePt}</p><p lang="en">${sessaoDistopia[i].sinopseEng}</p>
@@ -65,8 +65,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitle1";
+        sesTitleEN.className = "sessionTitle1";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -85,7 +85,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < sessaoPulsao1.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBox1 hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoPulsao1[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoPulsao1[i].tituloPt}</h1>
       <h1 lang="en">${sessaoPulsao1[i].tituloEng}</h1><h3>${sessaoPulsao1[i].localDuracao}</h3><p lang="pt">${sessaoPulsao1[i].sinopsePt}</p><p lang="en">${sessaoPulsao1[i].sinopseEng}</p>
@@ -137,8 +137,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitle2";
+        sesTitleEN.className = "sessionTitle2";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -157,7 +157,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < sessaoImagem.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBox2 hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoImagem[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoImagem[i].tituloPt}</h1>
       <h1 lang="en">${sessaoImagem[i].tituloEng}</h1><h3>${sessaoImagem[i].localDuracao}</h3><p lang="pt">${sessaoImagem[i].sinopsePt}</p><p lang="en">${sessaoImagem[i].sinopseEng}</p>
@@ -173,8 +173,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitle3";
+        sesTitleEN.className = "sessionTitle3";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -193,7 +193,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < sessaoAquilombamento.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBox3 hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoAquilombamento[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoAquilombamento[i].tituloPt}</h1>
       <h1 lang="en">${sessaoAquilombamento[i].tituloEng}</h1><h3>${sessaoAquilombamento[i].localDuracao}</h3><p lang="pt">${sessaoAquilombamento[i].sinopsePt}</p><p lang="en">${sessaoAquilombamento[i].sinopseEng}</p>
