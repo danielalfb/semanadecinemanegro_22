@@ -334,8 +334,8 @@ function getFooterOpen() { ?>
           <!-- <li lang="en"><a href="/catalogo">Catalog</a></li> -->
           <!-- <li lang="pt"><a href="/creditos">Créditos</a></li>
             <li lang="en"><a href="/creditos">Credits</a></li> -->
-          <li lang="pt"><a href="/edicao_anterior">Edição anterior</a></li>
-          <li lang="en"><a href="/edicao_anterior">Previous edition</a></li>
+          <li lang="pt"><a href="/primeira_edicao">Edição anterior</a></li>
+          <li lang="en"><a href="/primeira_edicao">Previous edition</a></li>
         </ul>
       </div>
       <div class="footer-right">
