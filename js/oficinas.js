@@ -3,20 +3,20 @@ var src = "./img/oficinas/";
 var boxContent = [];
 
 function fetchJson(url) {
-  return fetch(url).then((ans) => {
-    return ans.json();
-  });
+    return fetch(url).then((ans) => {
+        return ans.json();
+    });
 }
 
 async function loadData() {
-  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
-  boxContent = data.oficinas;
+    var data = await fetchJson("../js/data.json");
+    boxContent = data.oficinas;
 
-  function createData() {
-    for (i = 0; i < boxContent.length; i++) {
-      var postBox = document.createElement("div");
-      postBox.className = "postBoxOficina postBox";
-      postBox.innerHTML = `
+    function createData() {
+        for (i = 0; i < boxContent.length; i++) {
+            var postBox = document.createElement("div");
+            postBox.className = "postBoxOficina postBox";
+            postBox.innerHTML = `
     <div class="postInfo">
       <h1 lang="pt" style="color: var(--cor-lilac)">${boxContent[i].tituloPt}</h1>
       <h1 lang="en" style="color: var(--cor-lilac)">${boxContent[i].tituloEng}</h>
@@ -31,10 +31,10 @@ async function loadData() {
       <p lang="en">${boxContent[i].curriculoEng}</p>
     </div>
     </div></div>`;
-      container.appendChild(postBox);
+            container.appendChild(postBox);
+        }
     }
-  }
-  createData();
-  translate();
+    createData();
+    translate();
 }
 loadData();

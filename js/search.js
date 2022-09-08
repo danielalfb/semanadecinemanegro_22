@@ -4,70 +4,68 @@ var searchButton = document.querySelector("#searchButton");
 var resultTotal = [];
 
 function fetchJson(url) {
-  return fetch(url).then((ans) => {
-    return ans.json();
-  });
+    return fetch(url).then((ans) => {
+        return ans.json();
+    });
 }
 
 render();
 
 async function render() {
-  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
-  resultTotal = [
-    ...data.palcoNasTelas,
-    ...data.fespaco,
-    ...data.surreal16,
-    ...data.nicho54,
-    ...data.sessaoDistopia,
-    ...data.sessaoPulsao1,
-    ...data.sessaoPulsao2,
-    ...data.sessaoImagem,
-    ...data.sessaoAquilombamento,
-    ...data.sessaoKalunga,
-    ...data.sessaoAquilombamentoEnc,
-    ...data.debates,
-    ...data.oficinas,
-  ];
+    var data = await fetchJson("../js/data.json");
+    resultTotal = [
+        ...data.palcoNasTelas,
+        ...data.nicho54,
+        ...data.sessaoDistopia,
+        ...data.sessaoPulsao1,
+        ...data.sessaoPulsao2,
+        ...data.sessaoImagem,
+        ...data.sessaoAquilombamento,
+        ...data.sessaoKalunga,
+        ...data.sessaoAquilombamentoEnc,
+        ...data.debates,
+        ...data.oficinas,
+    ];
 
-  searchButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    const searchBarPT = document
-      .querySelector(".searchBarPT")
-      .value.toUpperCase();
-    const searchBarEN = document
-      .querySelector(".searchBarEN")
-      .value.toUpperCase();
-    const searchStringPT = searchBarPT;
-    const searchStringEN = searchBarEN;
-    const lang = localStorage.getItem("lang");
-    const filteredResult = resultTotal.filter((result) => {
-      if (lang === "pt") {
-        return result.tituloPt.toUpperCase().includes(searchStringPT);
-      } else {
-        if (!!result.tituloEng) {
-          return String(result.tituloEng)
-            .toUpperCase()
-            .includes(searchStringEN.toUpperCase());
+    searchButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        const searchBarPT = document
+            .querySelector(".searchBarPT")
+            .value.toUpperCase();
+        const searchBarEN = document
+            .querySelector(".searchBarEN")
+            .value.toUpperCase();
+        const searchStringPT = searchBarPT;
+        const searchStringEN = searchBarEN;
+        const lang = localStorage.getItem("lang");
+        const filteredResult = resultTotal.filter((result) => {
+            if (lang === "pt") {
+                return result.tituloPt.toUpperCase().includes(searchStringPT);
+            } else {
+                if (!!result.tituloEng) {
+                    return String(result.tituloEng)
+                        .toUpperCase()
+                        .includes(searchStringEN.toUpperCase());
+                } else {
+                    return String(result.tituloPt)
+                        .toUpperCase()
+                        .includes(searchStringEN.toUpperCase());
+                }
+            }
+        });
+        if (filteredResult.length === 0) {
+            displayEmpty();
+            translate();
         } else {
-          return String(result.tituloPt)
-            .toUpperCase()
-            .includes(searchStringEN.toUpperCase());
+            displayResults(filteredResult);
+            translate();
         }
-      }
+        translate();
     });
-    if (filteredResult.length === 0) {
-      displayEmpty();
-      translate();
-    } else {
-      displayResults(filteredResult);
-      translate();
-    }
-    translate();
-  });
 }
 
 const displayResults = (results) => {
-  const header = `<section>
+    const header = `<section>
   <div class="mainBanner">
     <div class="mainInfo">
       <div class="title creditos">
@@ -77,31 +75,31 @@ const displayResults = (results) => {
     </div>
   </div>
 </section>`;
-  const htmlString = results
-    .map((result) => {
-      return `        
+    const htmlString = results
+        .map((result) => {
+            return `        
         <li>
         <a href="${result.homepage}"><div class="resultBox">          
           <h2 lang="pt">${result.tituloPt}</h2>
           <h2 lang="en">${
-            result.tituloEng ? result.tituloEng : result.tituloPt
+              result.tituloEng ? result.tituloEng : result.tituloPt
           }</h2>
           <p lang="pt">${
-            result.sinopsePt ? result.sinopsePt : result.descricaoPt
+              result.sinopsePt ? result.sinopsePt : result.descricaoPt
           }</p>
           <p lang="en">${
-            result.sinopseEng ? result.sinopseEng : result.descricaoEng
+              result.sinopseEng ? result.sinopseEng : result.descricaoEng
           }</p>
         </div></a>
         </li>`;
-    })
-    .join("");
-  page.innerHTML = `${header} <section>
+        })
+        .join("");
+    page.innerHTML = `${header} <section>
   <div class="containerResults"><ul>${htmlString}</ul></div></section>`;
 };
 
 const displayEmpty = () => {
-  return (page.innerHTML = `
+    return (page.innerHTML = `
   <section>
     <div class="mainBanner">
       <div class="mainInfo">

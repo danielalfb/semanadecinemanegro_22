@@ -3,23 +3,23 @@ var src = "./img/debates/";
 var boxContent = [];
 
 function fetchJson(url) {
-  return fetch(url).then((ans) => {
-    return ans.json();
-  });
+    return fetch(url).then((ans) => {
+        return ans.json();
+    });
 }
 
 // <li> <a href="${boxContent[i].link}" class="btn debate-btn" target="_blank" >ASSISTA NO YOUTUBE <i class="fas fa-external-link-alt"></i ></a></li>
 
 async function loadData() {
-  var data = await fetchJson("/semanadecinemanegro_22/js/data.json");
-  boxContent = data.debates;
+    var data = await fetchJson("../js/data.json");
+    boxContent = data.debates;
 
-  function createData() {
-    for (i = 0; i < boxContent.length; i++) {
-      if (boxContent[i].participantes === 2) {
-        var debateBox2 = document.createElement("div");
-        debateBox2.className = "debateBox";
-        debateBox2.innerHTML = `
+    function createData() {
+        for (i = 0; i < boxContent.length; i++) {
+            if (boxContent[i].participantes === 2) {
+                var debateBox2 = document.createElement("div");
+                debateBox2.className = "debateBox";
+                debateBox2.innerHTML = `
         <div class="debateTitle">
         <h1>${boxContent[i].tituloPt}</h1>
         <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
@@ -31,11 +31,11 @@ async function loadData() {
         <span>${boxContent[i].direcao2}<br><p>${boxContent[i].funcao2}</p></li>
         </ul>
         </div></div>`;
-        container.appendChild(debateBox2);
-      } else if (boxContent[i].participantes === 3) {
-        var debateBox3 = document.createElement("div");
-        debateBox3.className = "debateBox";
-        debateBox3.innerHTML = `
+                container.appendChild(debateBox2);
+            } else if (boxContent[i].participantes === 3) {
+                var debateBox3 = document.createElement("div");
+                debateBox3.className = "debateBox";
+                debateBox3.innerHTML = `
             <div class="debateTitle">
             <h1>${boxContent[i].tituloPt}</h1>
             <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
@@ -49,11 +49,11 @@ async function loadData() {
             <span>${boxContent[i].direcao3}<br><p>${boxContent[i].funcao3}</p></li>
             </ul>
             </div></div>`;
-        container.appendChild(debateBox3);
-      } else if (boxContent[i].participantes === 4) {
-        var debateBox4 = document.createElement("div");
-        debateBox4.className = "debateBox";
-        debateBox4.innerHTML = `
+                container.appendChild(debateBox3);
+            } else if (boxContent[i].participantes === 4) {
+                var debateBox4 = document.createElement("div");
+                debateBox4.className = "debateBox";
+                debateBox4.innerHTML = `
               <div class="debateTitle">
               <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
@@ -69,11 +69,11 @@ async function loadData() {
               <span>${boxContent[i].direcao4}<br><p>${boxContent[i].funcao4}</p></li>
                 </ul>
               </div></div>`;
-        container.appendChild(debateBox4);
-      } else if (boxContent[i].participantes === 5) {
-        var debateBox5 = document.createElement("div");
-        debateBox5.className = "debateBox";
-        debateBox5.innerHTML = `
+                container.appendChild(debateBox4);
+            } else if (boxContent[i].participantes === 5) {
+                var debateBox5 = document.createElement("div");
+                debateBox5.className = "debateBox";
+                debateBox5.innerHTML = `
               <div class="debateTitle">
               <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
@@ -91,11 +91,11 @@ async function loadData() {
               <span>${boxContent[i].direcao5}<br><p>${boxContent[i].funcao5}</p></li>
                 </ul>
               </div></div>`;
-        container.appendChild(debateBox5);
-      } else if (boxContent[i].participantes === 6) {
-        var debateBox6 = document.createElement("div");
-        debateBox6.className = "debateBox";
-        debateBox6.innerHTML = `
+                container.appendChild(debateBox5);
+            } else if (boxContent[i].participantes === 6) {
+                var debateBox6 = document.createElement("div");
+                debateBox6.className = "debateBox";
+                debateBox6.innerHTML = `
               <div class="debateTitle">
               <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
@@ -115,11 +115,11 @@ async function loadData() {
               <span>${boxContent[i].direcao6}<br><p>${boxContent[i].funcao6}</p></li>
                 </ul>
               </div></div>`;
-        container.appendChild(debateBox6);
-      } else {
-        var debateBox7 = document.createElement("div");
-        debateBox7.className = "debateBox";
-        debateBox7.innerHTML = `
+                container.appendChild(debateBox6);
+            } else {
+                var debateBox7 = document.createElement("div");
+                debateBox7.className = "debateBox";
+                debateBox7.innerHTML = `
               <div class="debateTitle">
               <h1>${boxContent[i].tituloPt}</h1>
               <h2>${boxContent[i].data}, ${boxContent[i].horario}</h2></div>
@@ -141,11 +141,11 @@ async function loadData() {
               <span>${boxContent[i].direcao7}<br><p>${boxContent[i].funcao7}</p></li>
                 </ul>
               </div></div>`;
-        container.appendChild(debateBox7);
-      }
+                container.appendChild(debateBox7);
+            }
+        }
     }
-  }
-  createData();
-  translate();
+    createData();
+    translate();
 }
 loadData();

@@ -66,6 +66,9 @@ getHeaderMostras();
 <script src="../js/cineEscrituras.js"></script>
 <script src="../js/collapse.js"></script>
 <script src="../js/main.js"></script>
+<script>
+translate()
+</script>
 </body>
 
 </html>
