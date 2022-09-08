@@ -30,10 +30,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Cinema como foco na história e na cultura negra, que revive e coloca na tela experiências negras brasileira e corpos negros de várias matizes e expressões de gênero, todos encarnados em uma marca comum, a da ancestralidade. As obras deste conjunto nos ajudam a entender a ancestralidade como base fundamental das existências destes sujeitos diaspóricos, possibilitando o encontro e a re-inscrição do passado no presente e a imaginação de outros futuros que se fazem no agora.";
-        descriptionEN.innerHTML =
-            "Cinema with focus on black history and culture, that revives and puts on the screen the black Brazilian experiences and black bodies of various hues and gender expressions, all of which is embodied in a common factor, that of ancestry. The films in this program help us understand ancestry as a fundamental base of these diasporic subjects’ existences, allowing the encounter and the re-inscription of the past into the present and the imagination of other futures built in the present.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -68,10 +66,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Cinema como foco na história e na cultura negra, que revive e coloca na tela experiências negras brasileira e corpos negros de várias matizes e expressões de gênero, todos encarnados em uma marca comum, a da ancestralidade. As obras deste conjunto nos ajudam a entender a ancestralidade como base fundamental das existências destes sujeitos diaspóricos, possibilitando o encontro e a re-inscrição do passado no presente e a imaginação de outros futuros que se fazem no agora.";
-        descriptionEN.innerHTML =
-            "Cinema with focus on black history and culture, that revives and puts on the screen the black Brazilian experiences and black bodies of various hues and gender expressions, all of which is embodied in a common factor, that of ancestry. The films in this program help us understand ancestry as a fundamental base of these diasporic subjects’ existences, allowing the encounter and the re-inscription of the past into the present and the imagination of other futures built in the present.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);

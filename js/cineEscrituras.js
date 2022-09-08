@@ -41,10 +41,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Cinema como foco na história e na cultura negra, que revive e coloca na tela experiências negras brasileira e corpos negros de várias matizes e expressões de gênero, todos encarnados em uma marca comum, a da ancestralidade. As obras deste conjunto nos ajudam a entender a ancestralidade como base fundamental das existências destes sujeitos diaspóricos, possibilitando o encontro e a re-inscrição do passado no presente e a imaginação de outros futuros que se fazem no agora.";
-        descriptionEN.innerHTML =
-            "Cinema with focus on black history and culture, that revives and puts on the screen the black Brazilian experiences and black bodies of various hues and gender expressions, all of which is embodied in a common factor, that of ancestry. The films in this program help us understand ancestry as a fundamental base of these diasporic subjects’ existences, allowing the encounter and the re-inscription of the past into the present and the imagination of other futures built in the present.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -79,10 +77,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Cinema como foco na história e na cultura negra, que revive e coloca na tela experiências negras brasileira e corpos negros de várias matizes e expressões de gênero, todos encarnados em uma marca comum, a da ancestralidade. As obras deste conjunto nos ajudam a entender a ancestralidade como base fundamental das existências destes sujeitos diaspóricos, possibilitando o encontro e a re-inscrição do passado no presente e a imaginação de outros futuros que se fazem no agora.";
-        descriptionEN.innerHTML =
-            "Cinema with focus on black history and culture, that revives and puts on the screen the black Brazilian experiences and black bodies of various hues and gender expressions, all of which is embodied in a common factor, that of ancestry. The films in this program help us understand ancestry as a fundamental base of these diasporic subjects’ existences, allowing the encounter and the re-inscription of the past into the present and the imagination of other futures built in the present.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -117,10 +113,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Cinema que elabora a construção de espaços de resistência que não são necessariamente físicos, mas emocionais e afetivos, calcados em laços de partilha e pertença. Um quilombismo, como sinalizado por Abdias do Nascimento, pautado na construção de espaços coletivos e compartilhados, nos quais o convívio em comunidade com pessoas de mesma raça tece utopias de acolhimento e de luta por direitos, frutos de um desejo e um impulso de se irmanar, de se cercar de seus semelhantes.";
-        descriptionEN.innerHTML =
-            "A type of cinema that produces the creation of spaces and resistance that are not necessarily physical spaces, instead they are emotional and affective, based on bonds of sharing and belonging. A quilombismo, as pointed out by Abdias Nascimento, based on the construction of collective and shared spaces in which the community living with people of the same race weaves utopias of welcoming and struggle for rights, resulting from a desire and an impulse to join together, of being surrounded by those similar to you.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -155,10 +149,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
-        descriptionEN.innerHTML =
-            "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -193,10 +185,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
-        descriptionEN.innerHTML =
-            "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -231,10 +221,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
-        descriptionEN.innerHTML =
-            "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
@@ -269,10 +257,8 @@ async function loadData() {
         descriptionEN.className = "descriptionSession";
         descriptionPT.setAttribute("lang", "pt");
         descriptionEN.setAttribute("lang", "en");
-        descriptionPT.innerHTML =
-            "Conjunto de filmes que explicita elaborações de traumas e fabulações de uma existência e de futuros possíveis, sonhos que foram e são sonhados sem necessariamente terem a oportunidade de serem realizados. Que olham para as possibilidades de cura em lugar de reafirmar uma violência diária e histórica mediada e explicitada, escancarada e naturalizada de maneira espetacular por um mecanismo maniqueísta adotado por narrativas midiáticas dominantes.";
-        descriptionEN.innerHTML =
-            "A set of films that show the construction of traumas and fabulations of an existence and possible futures, dreams that were and are dreamed without necessarily having the opportunity of becoming reality. They look at the possibilities of healing instead of reaffirming daily and historical violence mediated, highlighted, overt, and naturalized in a spectacular way by a Manichaean mechanism adopted by dominant media narratives.";
+        descriptionPT.innerHTML = "";
+        descriptionEN.innerHTML = "";
         container.appendChild(sesTitlePT);
         container.appendChild(sesTitleEN);
         container.appendChild(descriptionPT);
