@@ -354,7 +354,6 @@ a.btn:hover {
 }
 
 .container,
-.container-inicio,
 .containerResults,
 .containerOficina {
     width: 100%;
@@ -364,6 +363,13 @@ a.btn:hover {
     margin-top: 40px;
 }
 
+.container-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 120px;
+}
+
 .containerTest {
     width: 100%;
     display: flex;
@@ -371,9 +377,6 @@ a.btn:hover {
     justify-content: space-around;
     padding: var(--padding-padrao);
     margin-top: 40px;
-}
-.container-inicio {
-    margin-top: 170px;
 }
 
 .containerColumn,
@@ -801,6 +804,17 @@ img.inicio {
 }
 div.paragrafo-inicio {
     width: 50%;
+    color: var(--cor-lightpink);
+    padding: var(--lmargin-padrao);
+}
+.paragrafo-inicio a {
+    color: var(--cor-lightpink);
+    font-weight: 600;
+}
+.paragrafo-inicio h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--cor-yellow);
 }
 div.paragrafo-inicio h3 {
     text-transform: uppercase;
