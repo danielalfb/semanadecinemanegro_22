@@ -419,6 +419,8 @@ footer {
 .language ul li a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #000;
 }
 .button_lang {
   background-color: #fff;
