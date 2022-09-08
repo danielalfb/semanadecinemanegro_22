@@ -20,7 +20,8 @@ getHeaderMostras();
     <section>
         <section>
             <div class="mainSubtitle" style="border-left: 5px solid var(--cor-lilac);">
-                <p lang="pt">O NICHO 54 nasceu como instituto em novembro de 2019 e tem como missão contribuir para o
+                <p lang="pt" style="text-align: justify">O NICHO 54 nasceu como instituto em novembro de 2019 e tem como
+                    missão contribuir para o
                     fortalecimento das carreiras de pessoas negras no audiovisual. O festival anual NICHO Novembro
                     realizou a mostra <em>América negra: conversas entre as negritudes latino-americanas</em> que
                     emergiu de um projeto curatorial lançando à pergunta: "o que entraria em nosso campo de visão se
@@ -33,7 +34,8 @@ getHeaderMostras();
                     <em>Negra</em> (Medhin Tewolde Serrano México, 2020). Contaremos com a presença de Heitor Augusto
                     para uma conversa ao final da sessão.
                 </p>
-                <p lang="en">O NICHO 54 nasceu como instituto em novembro de 2019 e tem como missão contribuir para o
+                <p lang="en" style="text-align: justify">O NICHO 54 nasceu como instituto em novembro de 2019 e tem como
+                    missão contribuir para o
                     fortalecimento das carreiras de pessoas negras no audiovisual. O festival anual NICHO Novembro
                     realizou a mostra <em>América negra: conversas entre as negritudes latino-americanas</em> que
                     emergiu de um projeto curatorial lançando à pergunta: "o que entraria em nosso campo de visão se
@@ -47,7 +49,7 @@ getHeaderMostras();
                     para uma conversa ao final da sessão.
                 </p>
                 <div>
-                    <img src="./img/NICHO_54_MARCA_OFICIAL-01.png" alt="">
+                    <img src="./img/NICHO_54_MARCA_OFICIAL-01.png" alt="" style="width: 100%">
                 </div>
             </div>
         </section>
