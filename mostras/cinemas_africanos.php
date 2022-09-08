@@ -74,7 +74,7 @@
                 </p>
             </div>
         </section>
-        <section style="margin-left: -40px">
+        <section class="leftMarginSection">
             <div class="container containerColumn"></div>
         </section>
 </div>

@@ -50,7 +50,7 @@ getHeaderMostras();
                 </p>
             </div>
         </section>
-        <section style="margin-left: -40px">
+        <section class="leftMarginSection">
             <div class="container containerColumn">
                 <!--DIV DE COLLAPSE 
         DIV DE conteúdo que vai ser usada no script 
