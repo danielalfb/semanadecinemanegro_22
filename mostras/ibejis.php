@@ -25,7 +25,7 @@ getHeaderMostras();
             </div>
         </section>
         <section>
-            <section>
+            <section style="margin-left: -40px">
                 <div class="container containerColumn"></div>
             </section>
 </div>
