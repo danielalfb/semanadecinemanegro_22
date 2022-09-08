@@ -113,7 +113,7 @@
     .container,
     .container-inicio {
         justify-content: center;
-        margin: 1em auto;
+        margin: 1em 0 0 0;
     }
     img.inicio {
         margin: 100px 0 20px 0;
