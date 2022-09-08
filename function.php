@@ -125,6 +125,10 @@ function getHeader() {
             <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo.php">Catalog</a></li> -->
             <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Credits</a></li> -->
+            <li lang="pt"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
+                href="/sala_imprensa.php">Imprensa</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
+                href="/sala_imprensa.php">Press</a></li>
             <li lang="pt"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
                 href="/temp_page/primeira_edicao.html">Edição anterior</a></li>
             <li lang="en"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
@@ -271,6 +275,10 @@ function getHeaderMostras() {
               <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo.php">Catalog</a></li> -->
               <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Créditos</a></li>
             <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Credits</a></li> -->
+              <li lang="pt"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
+                  href="/sala_imprensa.php">Imprensa</a></li>
+              <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
+                  href="/sala_imprensa.php">Press</a></li>
               <li lang="pt"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
                   href="/temp_page/primeira_edicao.html">Edição anterior</a></li>
               <li lang="en"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
@@ -334,6 +342,8 @@ function getFooterOpen() { ?>
           <!-- <li lang="en"><a href="/catalogo">Catalog</a></li> -->
           <!-- <li lang="pt"><a href="/creditos">Créditos</a></li>
             <li lang="en"><a href="/creditos">Credits</a></li> -->
+          <li lang="pt"><a href="/sala_imprensa">Imprensa</a></li>
+          <li lang="en"><a href="/sala_imprensa">Press</a></li>
           <li lang="pt"><a href="/primeira_edicao">Edição anterior</a></li>
           <li lang="en"><a href="/primeira_edicao">Previous edition</a></li>
         </ul>

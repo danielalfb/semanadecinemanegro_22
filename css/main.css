@@ -370,6 +370,31 @@ a.btn:hover {
     margin-top: 120px;
 }
 
+.pressInfoContainer {
+    display: flex;
+   flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: var(--lmargin-padrao);
+}
+.pressInfoContainer h2 {
+    color: var(--cor-lightpink);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+.pressInfoItem {
+   display: flex;
+   align-items: center;
+   color: var(--cor-lightpink);
+   gap: 5px;
+   line-height: 1.5rem;
+}
+.pressInfoItem img {
+  width: auto;
+  height: 10px;
+}
+
 .containerTest {
     width: 100%;
     display: flex;
