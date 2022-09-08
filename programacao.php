@@ -9,9 +9,11 @@ getHeader();
             <div class="mainInfo" style="color:var(--cor-yellow);text-align:left;margin-top: -50px;">
                 <div class="title">
                     <h1 lang="pt">PROGRAM</h1>
-                    <h1 lang="pt" style="color: var(--cor-lightpink);margin-left: 30px">AÇÃO</h1>
+                    <h1 lang="pt" style="color: var(--cor-lightpink);margin-left: 30px; position: relative; left:200px">
+                        AÇÃO</h1>
                     <h1 lang="en">PRO</h1>
-                    <h1 lang="en" style="color: var(--cor-lightpink);margin-left: 30px">GRAM</h1>
+                    <h1 lang="en" style="color: var(--cor-lightpink);margin-left: 30px; position: relative; left:50px">
+                        GRAM</h1>
                 </div>
             </div>
         </div>

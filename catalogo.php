@@ -8,9 +8,9 @@
             style="background-image: url('./mostras/img/banners/banner1.svg'); background-position: center; height: 200px">
             <div class="mainInfo" style="color:var(--cor-yellow);text-align:right;margin-top: -50px;">
                 <div class="title">
-                    <h1 lang="pt">CATÁ</h1>
+                    <h1 lang="pt" style="position: relative;right: 130px">CATÁ</h1>
                     <h1 lang="pt" style="color: var(--cor-lightpink);margin-left: 30px">LOGO</h1>
-                    <h1 lang="en">CAT</h1>
+                    <h1 lang="en" style="position: relative;right: 75px;">CAT</h1>
                     <h1 lang="en" style="color: var(--cor-lightpink);margin-left: 30px">LOG</h1>
                 </div>
             </div>
