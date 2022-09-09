@@ -112,8 +112,13 @@
     a.download {
         width: 80%;
     }
-    .mainInfoNicho54 {
+    .mainInfoNicho54,
+    .mainInfoMaster {
         padding: 0 !important;
+    }
+    .mainInfoMaster > .title h1 {
+        font-size: 3.25rem;
+        text-align: center;
     }
 
     .mainSubtitleNicho54 {
