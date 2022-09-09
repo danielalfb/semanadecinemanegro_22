@@ -26,7 +26,7 @@ async function loadData() {
       </div>
       <div class="minInfo">
       <div class="postBox" style=" width: 100%; ">
-      <div class="postImg filmeImg" style="background-position: 25%; background-image: url('${src}${boxContent[i].img};')"></div>
+      <div class="postImg filmeImg" style="background-image: url('${src}${boxContent[i].img};')"></div>
       <div class="postInfo">
         <p lang="pt">${boxContent[i].curriculoPt}</p>
         <p lang="en">${boxContent[i].curriculoEng}</p>
