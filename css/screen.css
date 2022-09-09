@@ -113,11 +113,16 @@
         width: 80%;
     }
     .mainInfoNicho54,
-    .mainInfoMaster {
+    .mainInfoMaster,
+    .mainInfoProgram {
         padding: 0 !important;
     }
     .mainInfoMaster > .title h1 {
         font-size: 3.25rem;
+        text-align: center;
+    }
+    .mainInfoProgram > .title h1 {
+        font-size: 2.75rem;
         text-align: center;
     }
 
@@ -222,10 +227,10 @@
         width: 86%;
     }
     div.postBoxOficina .minCurr {
-    flex-direction: column;
+        flex-direction: column;
     }
     div.minCurr > p {
-    max-width: 100%;
+        max-width: 100%;
     }
     div.debateContainer {
         flex-direction: column;
