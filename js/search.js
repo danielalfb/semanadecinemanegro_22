@@ -15,7 +15,11 @@ async function render() {
     var data = await fetchJson("../js/data.json");
     resultTotal = [
         ...data.palcoNasTelas,
+        ...data.cinemasAfricanos,
+        ...data.medHondo,
         ...data.nicho54,
+        ...data.ibejis1,
+        ...data.ibejis2,
         ...data.sessaoDistopia,
         ...data.sessaoPulsao1,
         ...data.sessaoPulsao2,
@@ -24,6 +28,7 @@ async function render() {
         ...data.sessaoKalunga,
         ...data.sessaoAquilombamentoEnc,
         ...data.debates,
+        ...data.masterclass,
         ...data.oficinas,
     ];
 
