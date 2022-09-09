@@ -817,6 +817,14 @@ div.debateInfo {
 .catalog-cover {
     background-image: url(../img/catalogo.png);
 }
+.programInfo {
+    display: flex; 
+    align-items: center
+}
+.leftMarginSection {
+    margin-left: -40px;
+}
+
 
 /*bloco: creditos*/
 
