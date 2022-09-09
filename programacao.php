@@ -5,7 +5,7 @@ getHeader();
 <div class="page">
   <section>
     <div class="mainBanner"
-      style="background-image: url('./mostras/img/banners/banner2.svg'); background-position: center; height: 200px">
+      style="background-image: url('./mostras/img/banners/banner2.jpg'); background-position: center; height: 200px">
       <div class="mainInfo" style="color:var(--cor-yellow);text-align:left;margin-top: -50px;">
         <div class="title">
           <h1 lang="pt">PROGRAM</h1>

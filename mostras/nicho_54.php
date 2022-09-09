@@ -4,7 +4,7 @@ getHeaderMostras();
 ?>
 <div class="page">
     <section>
-        <div class="mainBanner" style="background-image: url('./img/banners/banner12.svg'); height: 400px">
+        <div class="mainBanner" style="background-image: url('./img/banners/banner12.jpg'); height: 400px">
             <div class="mainInfo" style="color:var(--cor-yellow);margin-top:-80px">
                 <div class="title">
                     <h1 lang="pt">SEMANA DE CINEMA NEGRO</h1>

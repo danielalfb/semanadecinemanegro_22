@@ -5,7 +5,7 @@ getHeaderMostras();
 <div class="page">
     <section>
         <div class="mainBanner"
-            style="background-image: url('./img/banners/banner7.svg'); background-position: center; height: 200px">
+            style="background-image: url('./img/banners/banner7.jpg'); background-position: center; height: 200px">
             <div class="mainInfo" style="color:var(--cor-yellow);text-align: right;margin-top: -50px;">
                 <div class="title">
                     <h1 lang="pt">CINE-ESCRITURAS</h1>
