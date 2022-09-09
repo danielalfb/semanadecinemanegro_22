@@ -4,7 +4,7 @@
 ?>
 <div class="page">
     <section>
-        <div class="mainBanner" style="background-image: url('./img/banners/banner14.svg'); height: 500px">
+        <div class="mainBanner" style="background-image: url('./img/banners/banner14.jpg'); height: 500px">
             <div class="mainInfo" style="color: var(--cor-lightpink)">
                 <div class="title">
                     <h1 lang="pt">POR <span style="color: var(--cor-yellow);">OUTROS</span> CINEMAS AFRICANOS</h1>

@@ -1016,6 +1016,9 @@ footer {
 }
 
 /*  VIDEO    */
+.vinheta {
+    margin-top: -70px;
+}
 .video,
 .video-footer {
     background-repeat: no-repeat;
