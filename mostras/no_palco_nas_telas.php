@@ -4,7 +4,7 @@ getHeaderMostras();
 ?>
 <div class="page">
     <section>
-        <div class="mainBanner" style="background-image: url('./img/banners/banner3.svg'); height: 350px">
+        <div class="mainBanner" style="background-image: url('./img/banners/banner3.jpg'); height: 350px">
             <div class="mainInfo" style="color: var(--cor-lightpink);">
                 <div class="title" style="margin-top: -120px;">
                     <h1 lang="pt" style="color: var(--cor-yellow);">MARIA JOSÉ NOVAIS OLIVEIRA: </h1>

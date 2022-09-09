@@ -4,7 +4,7 @@ getHeaderMostras();
 ?>
 <div class="page">
     <section>
-        <div class="mainBanner" style="background-image: url('./img/banners/banner9.svg'); height: 300px">
+        <div class="mainBanner" style="background-image: url('./img/banners/banner9.jpg'); height: 300px">
             <div class="mainInfo" style="margin-top:-80px">
                 <div class="title">
                     <h1 lang="pt"><span style="color: var(--cor-yellow);">IBEJIS</span> (INFANTIL)</h1>

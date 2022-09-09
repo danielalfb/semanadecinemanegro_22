@@ -6,7 +6,7 @@ getHeader();
   <!--banner:-->
   <section>
     <div class="container-inicio"
-      style="background-image: url('./mostras/img/banners/banner2.svg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+      style="background-image: url('./mostras/img/banners/banner2.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
       <div class="paragrafo-inicio">
         <h1 lang="pt">Sobre a semana</h1>
         <h1 lang="en">About the Week</h1>

@@ -71,41 +71,41 @@ function getHeader() {
         </div>
         <div class="menu__links">
           <ul id="nav-list">
-            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index.php">Início</a></li>
-            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index.php">Home</a></li>
+            <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Início</a></li>
+            <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Home</a></li>
             <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>"
-                href="/programacao.php">Programação</a></li>
+                href="/programacao">Programação</a></li>
             <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>"
-                href="/programacao.php">Program</a></li>
+                href="/programacao">Program</a></li>
             <div class="dropdown">
               <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
               <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
               <div class="dropdown-content">
-                <li lang="pt"><a href="/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA:
+                <li lang="pt"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
                     REJANE FARIA – NO
                     PALCO E NAS TELAS</a></li>
-                <li lang="en"><a href="/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA:
+                <li lang="en"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
                     REJANE FARIA – NO
                     PALCO E NAS TELAS</a></li>
-                <li lang="pt"><a href="/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a>
+                <li lang="pt"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a>
                 </li>
-                <li lang="en"><a href="/mostras/cinemas_africanos.php">POR OUTROS CINEMAS AFRICANOS</a>
+                <li lang="en"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a>
                 </li>
-                <li lang="pt"><a href="/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
+                <li lang="pt"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
                 </li>
-                <li lang="en"><a href="/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
+                <li lang="en"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
                 </li>
-                <li lang="pt"><a href="/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
+                <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
                     CONVIDA NICHO
                     54</a></li>
-                <li lang="en"><a href="/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
+                <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
                     CONVIDA NICHO
                     54</a></li>
-                <li lang="pt"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                <li lang="en"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                <li lang="pt"><a href="/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a>
+                <li lang="pt"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+                <li lang="en"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+                <li lang="pt"><a href="/mostras/cine_escrituras_pretas">Cine-Escrituras Pretas</a>
                 </li>
-                <li lang="en"><a href="/mostras/cine_escrituras_pretas.php">Black Film-Writings</a>
+                <li lang="en"><a href="/mostras/cine_escrituras_pretas">Black Film-Writings</a>
                 </li>
               </div>
             </div>
@@ -113,22 +113,22 @@ function getHeader() {
               <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
               <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
               <div class="dropdown-content">
-                <li lang="pt"><a href="/masterclass.php">masterclass</a></li>
-                <li lang="en"><a href="/masterclass.php">masterclass</a></li>
-                <li lang="pt"><a href="/oficinas.php">Oficinas</a></li>
-                <li lang="en"><a href="/oficinas.php">Workshops</a></li>
-                <li lang="pt"><a href="/debates.php">Conversas e Debates</a></li>
-                <li lang="en"><a href="/debates.php">Talks and Q&A's</a></li>
+                <li lang="pt"><a href="/masterclass">masterclass</a></li>
+                <li lang="en"><a href="/masterclass">masterclass</a></li>
+                <li lang="pt"><a href="/oficinas">Oficinas</a></li>
+                <li lang="en"><a href="/oficinas">Workshops</a></li>
+                <li lang="pt"><a href="/debates">Conversas e Debates</a></li>
+                <li lang="en"><a href="/debates">Talks and Q&A's</a></li>
               </div>
             </div>
-            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo.php">Catálogo</a></li> -->
-            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo.php">Catalog</a></li> -->
-            <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Credits</a></li> -->
+            <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a></li> -->
+            <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a></li> -->
+            <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li> -->
             <li lang="pt"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
-                href="/sala_imprensa.php">Imprensa</a></li>
+                href="/sala_imprensa">Imprensa</a></li>
             <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
-                href="/sala_imprensa.php">Press</a></li>
+                href="/sala_imprensa">Press</a></li>
             <li lang="pt"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
                 href="/temp_page/primeira_edicao.html">Edição anterior</a></li>
             <li lang="en"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
@@ -221,41 +221,41 @@ function getHeaderMostras() {
           </div>
           <div class="menu__links">
             <ul id="nav-list">
-              <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index.php">Início</a></li>
-              <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index.php">Home</a></li>
+              <li lang="pt"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Início</a></li>
+              <li lang="en"><a class="<?= ($activePage == 'index') ? 'active':''; ?>" href="/index">Home</a></li>
               <li lang="pt"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>"
-                  href="/programacao.php">Programação</a></li>
+                  href="/programacao">Programação</a></li>
               <li lang="en"><a class="<?= ($activePage == 'programacao') ? 'active':''; ?>"
-                  href="/programacao.php">Program</a></li>
+                  href="/programacao">Program</a></li>
               <div class="dropdown">
                 <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                 <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                 <div class="dropdown-content">
-                  <li lang="pt"><a href="/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA:
+                  <li lang="pt"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
                       REJANE FARIA – NO
                       PALCO E NAS TELAS</a></li>
-                  <li lang="en"><a href="/mostras/no_palco_nas_telas.php">MARIA JOSÉ NOVAIS OLIVEIRA:
+                  <li lang="en"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
                       REJANE FARIA – NO
                       PALCO E NAS TELAS</a></li>
-                  <li lang="pt"><a href="/mostras/cinemas_africanos.php">POR OUTROS CINEMAS
+                  <li lang="pt"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS
                       AFRICANOS</a></li>
-                  <li lang="en"><a href="/mostras/cinemas_africanos.php">POR OUTROS CINEMAS
+                  <li lang="en"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS
                       AFRICANOS</a></li>
-                  <li lang="pt"><a href="/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E
+                  <li lang="pt"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E
                       LIBERDADE</a></li>
-                  <li lang="en"><a href="/mostras/med_hondo.php">MOSTRA MED HONDO: CINEMA E
+                  <li lang="en"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E
                       LIBERDADE</a></li>
-                  <li lang="pt"><a href="/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO
+                  <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO
                       HORIZONTE CONVIDA NICHO
                       54</a></li>
-                  <li lang="en"><a href="/mostras/nicho_54.php">SEMANA DE CINEMA NEGRO DE BELO
+                  <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO
                       HORIZONTE CONVIDA NICHO
                       54</a></li>
-                  <li lang="pt"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="en"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-                  <li lang="pt"><a href="/mostras/cine_escrituras_pretas.php">Cine-Escrituras
+                  <li lang="pt"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+                  <li lang="pt"><a href="/mostras/cine_escrituras_pretas">Cine-Escrituras
                       Pretas</a></li>
-                  <li lang="en"><a href="/mostras/cine_escrituras_pretas.php">Black Film-Writings</a>
+                  <li lang="en"><a href="/mostras/cine_escrituras_pretas">Black Film-Writings</a>
                   </li>
                 </div>
               </div>
@@ -263,22 +263,22 @@ function getHeaderMostras() {
                 <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                 <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
                 <div class="dropdown-content">
-                  <li lang="pt"><a href="/masterclass.php">masterclass</a></li>
-                  <li lang="en"><a href="/masterclass.php">masterclass</a></li>
-                  <li lang="pt"><a href="/oficinas.php">Oficinas</a></li>
-                  <li lang="en"><a href="/oficinas.php">Workshops</a></li>
-                  <li lang="pt"><a href="/debates.php">Conversas e Debates</a></li>
-                  <li lang="en"><a href="/debates.php">Talks and Q&A's</a></li>
+                  <li lang="pt"><a href="/masterclass">masterclass</a></li>
+                  <li lang="en"><a href="/masterclass">masterclass</a></li>
+                  <li lang="pt"><a href="/oficinas">Oficinas</a></li>
+                  <li lang="en"><a href="/oficinas">Workshops</a></li>
+                  <li lang="pt"><a href="/debates">Conversas e Debates</a></li>
+                  <li lang="en"><a href="/debates">Talks and Q&A's</a></li>
                 </div>
               </div>
-              <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo.php">Catálogo</a></li> -->
-              <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo.php">Catalog</a></li> -->
-              <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos.php">Credits</a></li> -->
+              <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a></li> -->
+              <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a></li> -->
+              <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a></li>
+            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li> -->
               <li lang="pt"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
-                  href="/sala_imprensa.php">Imprensa</a></li>
+                  href="/sala_imprensa">Imprensa</a></li>
               <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
-                  href="/sala_imprensa.php">Press</a></li>
+                  href="/sala_imprensa">Press</a></li>
               <li lang="pt"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
                   href="/temp_page/primeira_edicao.html">Edição anterior</a></li>
               <li lang="en"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
@@ -320,18 +320,18 @@ function getFooterOpen() { ?>
                 54</a></li>
             <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE CONVIDA NICHO
                 54</a></li>
-            <li lang="pt"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-            <li lang="en"><a href="/mostras/ibejis.php">IBEJIS (INFANTIL)</a></li>
-            <li lang="pt"><a href="/mostras/cine_escrituras_pretas.php">Cine-Escrituras Pretas</a></li>
-            <li lang="en"><a href="/mostras/cine_escrituras_pretas.php">Black Film-Writings</a></li>
+            <li lang="pt"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+            <li lang="en"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+            <li lang="pt"><a href="/mostras/cine_escrituras_pretas">Cine-Escrituras Pretas</a></li>
+            <li lang="en"><a href="/mostras/cine_escrituras_pretas">Black Film-Writings</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-center">
         <ul>
-          <li lang="pt"><a href="/masterclass.php">masterclass</a></li>
-          <li lang="en"><a href="/masterclass.php">masterclass</a></li>
+          <li lang="pt"><a href="/masterclass">masterclass</a></li>
+          <li lang="en"><a href="/masterclass">masterclass</a></li>
           <li lang="pt"><a href="/oficinas">Oficinas</a></li>
           <li lang="en"><a href="/oficinas">Workshops</a></li>
           <li lang="pt"><a href="/debates"> Conversas e Debates</a></li>
