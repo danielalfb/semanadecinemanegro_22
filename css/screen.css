@@ -1,4 +1,7 @@
 @media screen and (max-width: 800px) {
+    .title-mobile {
+        margin-left: 0 !important;
+    }
     .banner-header img {
         display: none;
     }
@@ -77,6 +80,9 @@
     .dowloadContainer {
         margin: 2rem 0;
     }
+    .dowloadContainer > p {
+        margin: 10px;
+    }
     .mainIllus > img {
         max-width: 100%;
         margin: 0;
@@ -103,11 +109,21 @@
     .teamContainer > .teamSing {
         width: 100%;
     }
+    a.download {
+        width: 80%;
+    }
+    .mainInfoNicho54 {
+        padding: 0 !important;
+    }
+
+    .mainSubtitleNicho54 {
+        flex-direction: column !important;
+    }
     .teamContainer > .teamSing {
         width: 100%;
         padding: 0;
     }
-    
+
     img.inicio,
     div.paragrafo-inicio {
         width: 92.5%;
@@ -148,6 +164,8 @@
     }
     div.postBox,
     .postBoxAfetos,
+    .postBoxIbejis1,
+    .postBoxIbejis2,
     .postBox1,
     .postBox3,
     .postBoxDistopia,
@@ -174,6 +192,15 @@
     .postInfo .info,
     div.btn-inicio .btn {
         margin-bottom: 0.6em;
+    }
+    .infoCineEscrituras {
+        flex-direction: column;
+        align-items: center;
+    }
+    .infoCineEscrituras .collapsible {
+        width: 100% !important;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
     div.btn-filmes,
     .container-inicio,

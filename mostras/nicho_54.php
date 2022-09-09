@@ -5,7 +5,7 @@ getHeaderMostras();
 <div class="page">
     <section>
         <div class="mainBanner" style="background-image: url('./img/banners/banner12.jpg'); height: 400px">
-            <div class="mainInfo" style="color:var(--cor-yellow);margin-top:-80px">
+            <div class="mainInfo mainInfoNicho54" style="color:var(--cor-yellow);margin-top:-80px">
                 <div class="title">
                     <h1 lang="pt">SEMANA DE CINEMA NEGRO</h1>
                     <h1 lang="pt" style="margin-left:100px">DE BELO HORIZONTE CONVIDA</h1>
@@ -19,7 +19,7 @@ getHeaderMostras();
     </section>
     <section>
         <section>
-            <div class="mainSubtitle" style="border-left: 5px solid var(--cor-lilac);">
+            <div class="mainSubtitle mainSubtitleNicho54" style="border-left: 5px solid var(--cor-lilac);">
                 <p lang="pt" style="text-align: justify">O NICHO 54 nasceu como instituto em novembro de 2019 e tem como
                     missão contribuir para o
                     fortalecimento das carreiras de pessoas negras no audiovisual. O festival anual NICHO Novembro

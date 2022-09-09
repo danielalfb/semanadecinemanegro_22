@@ -818,13 +818,12 @@ div.debateInfo {
     background-image: url(../img/catalogo.png);
 }
 .programInfo {
-    display: flex; 
-    align-items: center
+    display: flex;
+    align-items: center;
 }
 .leftMarginSection {
     margin-left: -40px;
 }
-
 
 /*bloco: creditos*/
 
@@ -1292,7 +1291,7 @@ footer {
 }
 .button_lang {
     color: #000;
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 5px;
     -webkit-transition: background-color 0.3s ease-in-out;
     -moz-transition: background-color 0.3s ease-in-out;
