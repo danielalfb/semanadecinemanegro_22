@@ -372,7 +372,7 @@ a.btn:hover {
 
 .pressInfoContainer {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     width: 100%;
     max-width: 100%;
     padding: var(--lmargin-padrao);
@@ -384,15 +384,15 @@ a.btn:hover {
     margin-bottom: 0;
 }
 .pressInfoItem {
-   display: flex;
-   align-items: center;
-   color: var(--cor-lightpink);
-   gap: 5px;
-   line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--cor-lightpink);
+    gap: 5px;
+    line-height: 1.5rem;
 }
 .pressInfoItem img {
-  width: auto;
-  height: 10px;
+    width: auto;
+    height: 10px;
 }
 
 .containerTest {
@@ -575,6 +575,13 @@ div.btn-filmes {
 }
 .info {
     width: 100%;
+}
+.infoCineEscrituras {
+    display: flex;
+    width: 100%;
+}
+.infoCineEscrituras .collapsible {
+    width: 500px !important;
 }
 .collapsible {
     font-family: var(--font-padrao);
