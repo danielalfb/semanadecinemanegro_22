@@ -19,7 +19,7 @@ getHeader();
       <div class="pressInfoContainer">
         <h2>Para falar com nossa assessoria de imprensa, entre em contato com:
         </h2>
-        <h3 style="color: var(--cor-yellow);">FORTELECÊNCIA ASSESSORIA
+        <h3 style="color: var(--cor-yellow);">FORTALECÊNCIA ASSESSORIA
         </h3>
         <div class="pressInfoItem">
           <img lang="pt" src="./img/icons/mail.svg" alt="Emails" />
