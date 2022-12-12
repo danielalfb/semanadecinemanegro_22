@@ -15,7 +15,7 @@ getHeader();
       </div>
     </div>
   </section>
-  <section class=" programInfo">
+  <section class="programInfo">
     <div class="mainSubtitle"
       style="border-left: 5px solid var(--cor-lilac); flex-direction: column; margin: 0 3rem 0 3rem; gap: unset; text-align: left">
       <p lang="pt" style="padding: 0; width: 100%; margin-left: 50px;">

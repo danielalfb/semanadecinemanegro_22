@@ -182,7 +182,6 @@ p {
 .container-header .logo-menu a img {
   max-width: 100%;
   max-height: 70px;
-  margin-left: 40px;
 }
 
 .container-header .navbar {
@@ -203,7 +202,7 @@ p {
   font-family: var(--font-padrao);
   text-decoration: none;
   color: var(--cor-cinza-menu);
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   display: block;
   height: 60px;
@@ -844,16 +843,14 @@ ul.teamSing {
 }
 .teamSing > li h1,
 .teamSing > li h2 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .teamSing > li h2 {
-  font-size: 1em;
   color: #7a7a7a;
 }
 
 .teamSing > li h3 {
   font-family: var(--font-padrao);
-
   font-weight: 400;
   font-size: 1em;
   margin: 0.2em 0 0 0;

@@ -118,8 +118,9 @@ function getHeader() {
             <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a>
             </li>
             <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a></li>
-            <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li> -->
+            <li lang="pt"><a class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a>
+            </li>
+            <li lang="en"><a class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li>
             <li lang="pt"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
                 href="/sala_imprensa">Imprensa</a></li>
             <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
@@ -266,10 +267,14 @@ function getHeaderMostras() {
                   <li lang="en"><a href="/debates">Talks and Q&A's</a></li>
                 </div>
               </div>
-              <!-- <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a></li> -->
-              <!-- <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a></li> -->
-              <!-- <li lang="pt"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a></li>
-            <li lang="en"><a  class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a></li> -->
+              <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a>
+              </li>
+              <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a>
+              </li>
+              <li lang="pt"><a class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Créditos</a>
+              </li>
+              <li lang="en"><a class="<?= ($activePage == 'creditos') ? 'active':''; ?>" href="/creditos">Credits</a>
+              </li>
               <li lang="pt"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
                   href="/sala_imprensa">Imprensa</a></li>
               <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
@@ -333,10 +338,10 @@ function getFooterOpen() { ?>
           <li lang="en"><a href="/debates"> Talks and Q&A's</a></li>
           <li lang="pt"><a href="/programacao">Programação</a></li>
           <li lang="en"><a href="/programacao">Program</a></li>
-          <!-- <li lang="pt"><a href="/catalogo">Catálogo</a></li> -->
-          <!-- <li lang="en"><a href="/catalogo">Catalog</a></li> -->
-          <!-- <li lang="pt"><a href="/creditos">Créditos</a></li>
-            <li lang="en"><a href="/creditos">Credits</a></li> -->
+          <li lang="pt"><a href="/catalogo">Catálogo</a></li>
+          <li lang="en"><a href="/catalogo">Catalog</a></li>
+          <li lang="pt"><a href="/creditos">Créditos</a></li>
+          <li lang="en"><a href="/creditos">Credits</a></li>
           <li lang="pt"><a href="/sala_imprensa">Imprensa</a></li>
           <li lang="en"><a href="/sala_imprensa">Press</a></li>
           <li lang="pt"><a href="/primeira_edicao">Edição anterior</a></li>
