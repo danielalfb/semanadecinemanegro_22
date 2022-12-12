@@ -249,7 +249,7 @@ a.btn:hover {
   /* gap: 5em; */
 }
 .teamContainer > .teamSing {
-  width: 25%;
+  width: 100%;
 }
 ul.teamSing {
   list-style: none;
@@ -456,12 +456,12 @@ footer {
     width: 100%;
   }
   .illustration-item1 {
-   display: none;
+    display: none;
   }
   .illustration-item2 {
     width: 416px;
     height: 251px;
-    margin-bottom: -20px
+    margin-bottom: -20px;
   }
   .illustration-item3 {
     display: none;
@@ -469,5 +469,4 @@ footer {
   .patrocinio {
     height: 100px;
   }
-
 }

@@ -256,16 +256,16 @@ ul.teamSing {
 }
 .teamSing > li h1,
 .teamSing > li h2 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .teamSing > li h2 {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #7a7a7a;
 }
 
 .teamSing > li h3 {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 0.8em;
   margin: 0.2em 0 0 0;
 }
 
@@ -458,7 +458,7 @@ footer {
     width: 100%;
   }
   .illustration-item1 {
-   display: none;
+    display: none;
   }
   .illustration-item2 {
     width: 416px;
@@ -471,5 +471,4 @@ footer {
   .patrocinio {
     height: 100px;
   }
-
 }

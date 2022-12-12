@@ -301,7 +301,7 @@ getHeader();
             <h3>Marcos Jamanta</h3>
           </li>
           <li>
-            <h3>Bruno Bastos /WS Viagens</h3>
+            <h3>Bruno Bastos /WS Viagens< /h3>
           </li>
           <li>
             <h3>Vicente De Marco /WS Viagens</h3>
@@ -472,7 +472,7 @@ getHeader();
           </li>
           <li>
             <h3>Alessandra Brito</h3>
-          </li>
+          </li></br>
           <li>
             <h2>Black Film-Writings</h2>
           </li>
@@ -745,9 +745,11 @@ getHeader();
             <h3>Nathalia Donizete</h3>
           </li></br>
           <li>
-            <h1>Fundraising</h1< /li>
+            <h1>Fundraising</h1>
+          </li>
           <li>
-            <h3>Formata Cultural LTDA/ Izadora Fernandes</h3< /li></br>
+            <h3>Formata Cultural LTDA/ Izadora Fernandes</h3>
+          </li></br>
           <li>
             <h1>CINE HUMBERTO MAURO</h1>
           </li>
