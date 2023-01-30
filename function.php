@@ -126,9 +126,9 @@ function getHeader() {
             <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
                 href="/sala_imprensa">Press</a></li>
             <li lang="pt"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
-                href="/temp_page/primeira_edicao.html">Edição anterior</a></li>
+                href="/2021/primeira_edicao.html">Edição anterior</a></li>
             <li lang="en"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
-                href="/temp_page/primeira_edicao.html">Previous edition</a></li>
+                href="/2021/primeira_edicao.html">Previous edition</a></li>
 
           </ul>
         </div>
@@ -280,9 +280,9 @@ function getHeaderMostras() {
               <li lang="en"><a class="<?= ($activePage == 'sala_imprensa') ? 'active':''; ?>"
                   href="/sala_imprensa">Press</a></li>
               <li lang="pt"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
-                  href="/temp_page/primeira_edicao.html">Edição anterior</a></li>
+                  href="/2021/primeira_edicao.html">Edição anterior</a></li>
               <li lang="en"><a class="<?= ($activePage == 'edicao_anterior') ? 'active':''; ?>"
-                  href="/temp_page/primeira_edicao.html">Previous edition</a></li>
+                  href="/2021/primeira_edicao.html">Previous edition</a></li>
 
             </ul>
           </div>
