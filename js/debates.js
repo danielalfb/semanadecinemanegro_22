@@ -21,7 +21,7 @@ async function loadData() {
       debateBox2.innerHTML = `
       <div>
         <div class="debateTitle">
-          <h1>${boxContent[i].tituloPt}</h1>
+          <!--<h1>${boxContent[i].tituloPt}</h1>-->
           <!--<h2>Participantes: ${boxContent[i].participantes}</h2>-->
         <div class="debateInfo">
           <div class="debateBanner">
