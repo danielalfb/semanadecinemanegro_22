@@ -44,12 +44,12 @@ getHeader();
       <a href="/oficinas" class="activities-btn"
         style="background-color: var(--cor-mustard); color: var(--cor-lilac); border: 1px solid var(--cor-mustard)">
         <h1 lang="pt">Oficinas</h1>
-        <h1 lang="en">Oficinas</h1>
+        <h1 lang="en">Classes</h1>
       </a>
       <a href="/debates" class="activities-btn"
         style="background-color: var(--cor-lightpink); color: var(--cor-pink); border: 1px solid var(--cor-lightpink)">
         <h1 lang="pt">Conversas e debates</h1>
-        <h1 lang="en">Conversas e debates</h1>
+        <h1 lang="en">TALKS AND Q&As</h1>
       </a>
     </div>
 </div>

@@ -15,6 +15,10 @@ function getHeader() {
   <meta name="author" content="" />
   <title>2ª Semana de Cinema Negro de Belo Horizonte</title>
   <link rel="icon" type="image/png" href="./img/favicon.png" />
+  <link rel="preload" href="./fonts/SpaceGrotesk-Medium.otf" as="font" type="otf" crossorigin>
+  <link rel="preload" href="./fonts/SpaceGrotesk-Light.otf" as="font" type="otf" crossorigin>
+  <link rel="preload" href="./fonts/SpaceGrotesk-Regular.otf" as="font" type="otf" crossorigin>
+  <link rel="preload" href="./fonts/BackOut.woff" as="font" type="woff" crossorigin>
   <link rel="stylesheet" type="text/css" href="./css/main.css" />
   <link rel="stylesheet" type="text/css" href="./css/screen.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -60,7 +64,7 @@ function getHeader() {
     </div>
     <div class="container-header header">
       <div class="logo-menu">
-        <a href="/index"><img src="./img/logo_purple.png" class="logo" alt="Logo Menu" title="Início" /></a>
+        <a href="/"><img src="./img/logo_purple.png" class="logo" alt="Logo Menu" title="Início" /></a>
       </div>
       <div class="navbar">
         <div class="menu__icon">
@@ -83,32 +87,28 @@ function getHeader() {
               <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
               <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
               <div class="dropdown-content">
-                <li lang="pt"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
-                    REJANE FARIA – NO
-                    PALCO E NAS TELAS</a></li>
-                <li lang="en"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
-                    REJANE FARIA – NO
-                    PALCO E NAS TELAS</a></li>
+                <li lang="pt"><a href="/mostras/no_palco_nas_telas">SESSÃO HOMENAGEM MARIA JOSÉ NOVAIS OLIVEIRA: REJANE
+                    FARIA – NO PALCO E NAS TELAS</a></li>
+                <li lang="en"><a href="/mostras/no_palco_nas_telas">TRIBUTE SESSION MARIA JOSÉ NOVAIS OLIVEIRA: REJANE
+                    FARIA – ON STAGE AND ON SCREENS</a></li>
                 <li lang="pt"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a>
                 </li>
-                <li lang="en"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a>
+                <li lang="en"><a href="/mostras/cinemas_africanos">TOWARDS OTHER AFRICAN CINEMAS</a>
                 </li>
                 <li lang="pt"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
                 </li>
-                <li lang="en"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
+                <li lang="en"><a href="/mostras/med_hondo">MED HONDO: CINEMA AND FREEDOM</a>
                 </li>
                 <li lang="pt"><a href="/mostras/cine_escrituras_pretas">Cine-Escrituras Pretas</a>
                 </li>
                 <li lang="en"><a href="/mostras/cine_escrituras_pretas">Black Film-Writings</a>
                 </li>
                 <li lang="pt"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
-                <li lang="en"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+                <li lang="en"><a href="/mostras/ibejis">CHILDREN’S SECTION</a></li>
                 <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
                     CONVIDA NICHO
                     54</a></li>
-                <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
-                    CONVIDA NICHO
-                    54</a></li>
+                <li lang="en"><a href="/mostras/nicho_54">BELO HORIZONTE BLACK FILM WEEK INVITES NICHO 54</a></li>
               </div>
             </div>
             <li lang="pt"><a class="<?= ($activePage == 'atividades') ? 'active':''; ?>" href="/atividades">ATIVIDADES
@@ -227,46 +227,35 @@ function getHeaderMostras() {
                 <li lang="pt"><a>Mostras <em class="fas fa-chevron-down"></em></a></li>
                 <li lang="en"><a>Exhbits <em class="fas fa-chevron-down"></em></a></li>
                 <div class="dropdown-content">
-                  <li lang="pt"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
-                      REJANE FARIA – NO
-                      PALCO E NAS TELAS</a></li>
-                  <li lang="en"><a href="/mostras/no_palco_nas_telas">MARIA JOSÉ NOVAIS OLIVEIRA:
-                      REJANE FARIA – NO
-                      PALCO E NAS TELAS</a></li>
-                  <li lang="pt"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS
-                      AFRICANOS</a></li>
-                  <li lang="en"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS
-                      AFRICANOS</a></li>
-                  <li lang="pt"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E
-                      LIBERDADE</a></li>
-                  <li lang="en"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E
-                      LIBERDADE</a></li>
-                  <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO
-                      HORIZONTE CONVIDA NICHO
-                      54</a></li>
-                  <li lang="en"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO
-                      HORIZONTE CONVIDA NICHO
-                      54</a></li>
-                  <li lang="pt"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
-                  <li lang="en"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
-                  <li lang="pt"><a href="/mostras/cine_escrituras_pretas">Cine-Escrituras
-                      Pretas</a></li>
+                  <li lang="pt"><a href="/mostras/no_palco_nas_telas">SESSÃO HOMENAGEM MARIA JOSÉ NOVAIS OLIVEIRA:
+                      REJANE
+                      FARIA – NO PALCO E NAS TELAS</a></li>
+                  <li lang="en"><a href="/mostras/no_palco_nas_telas">TRIBUTE SESSION MARIA JOSÉ NOVAIS OLIVEIRA: REJANE
+                      FARIA – ON STAGE AND ON SCREENS</a></li>
+                  <li lang="pt"><a href="/mostras/cinemas_africanos">POR OUTROS CINEMAS AFRICANOS</a>
+                  </li>
+                  <li lang="en"><a href="/mostras/cinemas_africanos">TOWARDS OTHER AFRICAN CINEMAS</a>
+                  </li>
+                  <li lang="pt"><a href="/mostras/med_hondo">MOSTRA MED HONDO: CINEMA E LIBERDADE</a>
+                  </li>
+                  <li lang="en"><a href="/mostras/med_hondo">MED HONDO: CINEMA AND FREEDOM</a>
+                  </li>
+                  <li lang="pt"><a href="/mostras/cine_escrituras_pretas">Cine-Escrituras Pretas</a>
+                  </li>
                   <li lang="en"><a href="/mostras/cine_escrituras_pretas">Black Film-Writings</a>
                   </li>
+                  <li lang="pt"><a href="/mostras/ibejis">IBEJIS (INFANTIL)</a></li>
+                  <li lang="en"><a href="/mostras/ibejis">CHILDREN’S SECTION</a></li>
+                  <li lang="pt"><a href="/mostras/nicho_54">SEMANA DE CINEMA NEGRO DE BELO HORIZONTE
+                      CONVIDA NICHO
+                      54</a></li>
+                  <li lang="en"><a href="/mostras/nicho_54">BELO HORIZONTE BLACK FILM WEEK INVITES NICHO 54</a></li>
                 </div>
               </div>
-              <div class="dropdown">
-                <li lang="pt"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
-                <li lang="en"><a>ATIVIDADES FORMATIVAS <em class="fas fa-chevron-down"></em></a></li>
-                <div class="dropdown-content">
-                  <li lang="pt"><a href="/masterclass">masterclass</a></li>
-                  <li lang="en"><a href="/masterclass">masterclass</a></li>
-                  <li lang="pt"><a href="/oficinas">Oficinas</a></li>
-                  <li lang="en"><a href="/oficinas">Workshops</a></li>
-                  <li lang="pt"><a href="/debates">Conversas e Debates</a></li>
-                  <li lang="en"><a href="/debates">Talks and Q&A's</a></li>
-                </div>
-              </div>
+              <li lang="pt"><a class="<?= ($activePage == 'atividades') ? 'active':''; ?>" href="/atividades">ATIVIDADES
+                  FORMATIVAS</a></li>
+              <li lang="en"><a class="<?= ($activePage == 'atividades') ? 'active':''; ?>" href="/atividades">TRAINING
+                  ACTIVITIES</a></li>
               <li lang="pt"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catálogo</a>
               </li>
               <li lang="en"><a class="<?= ($activePage == 'catalogo') ? 'active':''; ?>" href="/catalogo">Catalog</a>
