@@ -9,6 +9,12 @@ function sessionCollapsible() {
     $(".sessionTitle1").click(function () {
         $(this).nextAll(".postBox1").slice(0, 1).toggle();
     });
+    $(".sessionTitleIbejis1").click(function () {
+        $(this).nextAll(".postBoxIbejis1").slice(0, 10).toggle();
+    });
+    $(".sessionTitleIbejis2").click(function () {
+        $(this).nextAll(".postBoxIbejis2").slice(0, 10).toggle();
+    });
 }
 
 function collapsible() {
