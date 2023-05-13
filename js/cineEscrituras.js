@@ -87,8 +87,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle1";
-        sesTitleEN.className = "sessionTitle1";
+        sesTitlePT.className = "pulsaoDeVida1";
+        sesTitleEN.className = "pulsaoDeVida1";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -107,7 +107,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < sessaoPulsao1.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox1 hidden";
+            postBox.className = "postBoxPulsaoVida1 hidden";
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoPulsao1[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoPulsao1[i].tituloPt}</h1>
       <h1 lang="en">${sessaoPulsao1[i].tituloEng}</h1><h3>${sessaoPulsao1[i].localDuracao}</h3><p lang="pt">${sessaoPulsao1[i].sinopsePt}</p><p lang="en">${sessaoPulsao1[i].sinopseEng}</p>
@@ -231,8 +231,8 @@ async function loadData() {
         var sesTitleEN = document.createElement("a");
         var descriptionPT = document.createElement("p");
         var descriptionEN = document.createElement("p");
-        sesTitlePT.className = "sessionTitle";
-        sesTitleEN.className = "sessionTitle";
+        sesTitlePT.className = "sessionTitle6";
+        sesTitleEN.className = "sessionTitle6";
         sesTitlePT.setAttribute("lang", "pt");
         sesTitleEN.setAttribute("lang", "en");
         sesTitlePT.innerHTML =
@@ -251,7 +251,7 @@ async function loadData() {
         container.appendChild(descriptionEN);
         for (let i = 0; i < sessaoKalunga.length; i++) {
             var postBox = document.createElement("div");
-            postBox.className = "postBox hidden";
+            postBox.className = "postBox6 hidden";
             postBox.id = `postBoxKalunga-${i}`;
             postBox.innerHTML = `
       <div class="postImg filmeImg" style="background-image: url('${src}${sessaoKalunga[i].img}')"></div><div class="postInfo"><h1 lang="pt">${sessaoKalunga[i].tituloPt}</h1>

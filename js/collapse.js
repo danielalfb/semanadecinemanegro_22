@@ -9,11 +9,26 @@ function sessionCollapsible() {
     $(".sessionTitle1").click(function () {
         $(this).nextAll(".postBox1").slice(0, 1).toggle();
     });
+    $(".sessionTitle2").click(function () {
+        $(this).nextAll(".postBox2").slice(0, 6).toggle();
+    });
+    $(".sessionTitle3").click(function () {
+        $(this).nextAll(".postBox3").slice(0, 5).toggle();
+    });
+    $(".sessionTitle6").click(function () {
+        $(this).nextAll(".postBox6").slice(0, 5).toggle();
+    });
+    $(".pulsaoDeVida1").click(function () {
+        $(this).nextAll(".postBoxPulsaoVida1").slice(0, 5).toggle();
+    });
     $(".sessionTitleIbejis1").click(function () {
         $(this).nextAll(".postBoxIbejis1").slice(0, 10).toggle();
     });
     $(".sessionTitleIbejis2").click(function () {
         $(this).nextAll(".postBoxIbejis2").slice(0, 10).toggle();
+    });
+    $(".sessionTitleDistopia").click(function () {
+        $(this).nextAll(".postBoxDistopia").slice(0, 10).toggle();
     });
 }
 
